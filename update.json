@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.14",
+    "latest": "0.1.15",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.15",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.15/SoftwareMergerBuilder-0.1.15-win64.zip",
+        "sha256": "b7fbcb77cc28a94bd6b76f4684f3e0df6a2a98a590add631e34e23174e580ca0",
+        "sizeBytes": 19312792,
+        "notes": "护目高对比夜色界面，勾选/单选更清晰；添加文件夹可选主exe；导出自启动「仅对本机」文案明确；反馈/更新下载不卡界面；托盘与中文路径多项改进。"
+      },
       {
         "version": "0.1.14",
         "date": "2026-07-22",
@@ -120,10 +128,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.14",
+    "latest": "0.1.15",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.15",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.15/Launcher-0.1.15-win64.zip",
+        "sha256": "58ef6be7bd7fe532d05004c306081029d513673a5416b176da0f7e5457cf28cb",
+        "sizeBytes": 178603,
+        "notes": "托盘显示组合名、退出需确认；反馈界面中文；自启动中文路径更稳。请配合 Builder v0.1.15 重新导出组合包。"
+      },
       {
         "version": "0.1.14",
         "date": "2026-07-22",
