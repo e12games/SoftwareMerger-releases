@@ -1,0 +1,38 @@
+{
+  "formatVersion": 1,
+  "builder": {
+    "latest": "0.1.1",
+    "minSupported": "0.1.0",
+    "channel": "stable",
+    "releases": [
+      {
+        "version": "0.1.1",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.1/SoftwareMergerBuilder-0.1.1-win64.zip",
+        "sha256": "765fef4461dc18a647644d54568a6633c6e4a2d99990f1b7808e5e70d6a5b29b",
+        "notes": "新增在线更新、中文夜色界面、高级内置组件（密码门）、Qt 依赖自动部署。"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.0/SoftwareMergerBuilder-0.1.0-win64.zip",
+        "sha256": "",
+        "notes": "首个 MVP 版本。"
+      }
+    ]
+  },
+  "launcher": {
+    "latest": "0.1.1",
+    "minSupported": "0.1.0",
+    "channel": "stable",
+    "releases": [
+      {
+        "version": "0.1.1",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.1/Launcher-0.1.1-win64.zip",
+        "sha256": "b806f76fab4b4b7febc662953703847904106fe9b9f02e2a69491bea93fb51d4",
+        "notes": "支持 manifest builtin DLL LoadLibrary 与后置 EXE 启动。"
+      }
+    ]
+  }
+}
