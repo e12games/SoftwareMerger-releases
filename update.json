@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.12",
+    "latest": "0.1.14",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.14",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.14/SoftwareMergerBuilder-0.1.14-win64.zip",
+        "sha256": "0b5586953f88ae6c52ec4c4005eee51a5f4e22e76c07ff7c68961e508c1d80a9",
+        "sizeBytes": 19313240,
+        "notes": "制作器界面改为浅灰蓝日间主题，勾选/单选更清晰；修复中文路径下计划任务自启动失败（v0.1.13）；建议更新后重新导出组合包。"
+      },
       {
         "version": "0.1.12",
         "date": "2026-07-22",
@@ -112,10 +120,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.12",
+    "latest": "0.1.14",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.14",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.14/Launcher-0.1.14-win64.zip",
+        "sha256": "e83fdd512e67872ca729030c00fbe0a0f858933905d0470153de44fb069d4766",
+        "sizeBytes": 178535,
+        "notes": "Launcher 模块同步更新；修复中文路径计划任务 XML 自启动；请配合 Builder v0.1.14 重新导出组合包。"
+      },
       {
         "version": "0.1.12",
         "date": "2026-07-22",
