@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.15",
+    "latest": "0.1.16",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.16",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.16/SoftwareMergerBuilder-0.1.16-win64.zip",
+        "sha256": "ac1f63774baab123f7af59ce5c31fb639726d000135d2f13548e9fcc450ec217",
+        "sizeBytes": 19313146,
+        "notes": "修复导出选项中自启方式/证书来源单选选中态不可见（点了像没选中）；夜色单选改为径向渐变实心圆点。"
+      },
       {
         "version": "0.1.15",
         "date": "2026-07-22",
@@ -128,10 +136,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.15",
+    "latest": "0.1.16",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.16",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.16/Launcher-0.1.16-win64.zip",
+        "sha256": "a8ff31a4f546e3ad5336bd4406c05c7512470ac0240afd3104558269fee07218",
+        "sizeBytes": 178602,
+        "notes": "Launcher 随 Builder v0.1.16 同步发布；建议配合新版制作器重新导出组合包。"
+      },
       {
         "version": "0.1.15",
         "date": "2026-07-22",
