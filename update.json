@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.5",
+    "latest": "0.1.6",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.6",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.6/SoftwareMergerBuilder-0.1.6-win64.zip",
+        "sha256": "0bfb03aef8aac0dbde6e882cbb700b6adcbe7b6a06186d27835ee8e6007d1737",
+        "sizeBytes": 19257758,
+        "notes": "修复在线更新：优先使用更新包内的新 Updater 安装；EXE 替换增加重试；失败时回退 robocopy 脚本；修复下载进度条显示。"
+      },
       {
         "version": "0.1.5",
         "date": "2026-07-21",
@@ -56,10 +64,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.5",
+    "latest": "0.1.6",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.6",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.6/Launcher-0.1.6-win64.zip",
+        "sha256": "d635c7aab07c00fff2a2da43d3d41155a2aec32b3922cdf0a4834ec72b7639c2",
+        "sizeBytes": 0,
+        "notes": "Launcher 模板包更新，配合 Builder v0.1.6 使用。"
+      },
       {
         "version": "0.1.5",
         "date": "2026-07-21",
