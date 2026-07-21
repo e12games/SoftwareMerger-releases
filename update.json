@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.7",
+    "latest": "0.1.8",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.8",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.8/SoftwareMergerBuilder-0.1.8-win64.zip",
+        "sha256": "20fb503bec5c26667fc0edd5886afb37dffa42d9593b4d20b598180ee6699da8",
+        "sizeBytes": 19258705,
+        "notes": "修复在线更新失败「更新参数不完整」：Updater 正确解析安装参数，0.1.6/0.1.7 可直接检查更新升级。"
+      },
       {
         "version": "0.1.7",
         "date": "2026-07-21",
@@ -72,10 +80,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.7",
+    "latest": "0.1.8",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.8",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.8/Launcher-0.1.8-win64.zip",
+        "sha256": "a25d64a48cb3f8f597d092f248bec69ebff7d66ef65d6298eedb803e9426a72f",
+        "sizeBytes": 149380,
+        "notes": "Launcher 模板包更新，配合 Builder v0.1.8 使用。"
+      },
       {
         "version": "0.1.7",
         "date": "2026-07-21",
