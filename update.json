@@ -1,10 +1,17 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.1",
+    "latest": "0.1.2",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.2",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.2/SoftwareMergerBuilder-0.1.2-win64.zip",
+        "sha256": "2ee5933af312b6aa2a3f02b7f9bea41c89360a1c1fe2f419556f5a779c05a3fb",
+        "notes": "为 Builder 与 Launcher 添加程序图标；修复 GUI 标题栏与任务栏图标显示；导出的一键启动.exe 同步带图标。"
+      },
       {
         "version": "0.1.1",
         "date": "2026-07-21",
@@ -22,10 +29,17 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.1",
+    "latest": "0.1.2",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.2",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.2/Launcher-0.1.2-win64.zip",
+        "sha256": "ff9c661f2c386338ab3ee28ad978fb0da392a1a47291713bac6d3a47b5e77dfa",
+        "notes": "Launcher 同步嵌入程序图标，重新导出组合包时一键启动.exe 可显示图标。"
+      },
       {
         "version": "0.1.1",
         "date": "2026-07-21",
