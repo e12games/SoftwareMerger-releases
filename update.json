@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.11",
+    "latest": "0.1.12",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.12",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.12/SoftwareMergerBuilder-0.1.12-win64.zip",
+        "sha256": "dc637fd32a75640550f2338f4391a1b0fa0c682f6482c704bca7f204ba894f80",
+        "sizeBytes": 19306239,
+        "notes": "修复导出中文组合名目录乱码；一键启动改为静默运行（无黑CMD，日志仍写 logs）；可用 --console 调试。"
+      },
       {
         "version": "0.1.11",
         "date": "2026-07-22",
@@ -104,10 +112,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.11",
+    "latest": "0.1.12",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.12",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.12/Launcher-0.1.12-win64.zip",
+        "sha256": "7a3a3e58ef211cd3858e5b9d288f3e883b55ed0d249977a7e1f7424c045b1aff",
+        "sizeBytes": 175063,
+        "notes": "Launcher 静默运行，配合 Builder v0.1.12 重新导出组合包使用。"
+      },
       {
         "version": "0.1.11",
         "date": "2026-07-22",
