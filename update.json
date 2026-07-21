@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.9",
+    "latest": "0.1.10",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.10",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.10/SoftwareMergerBuilder-0.1.10-win64.zip",
+        "sha256": "f01a5e1db85e6cf042b1b30662e67dac8d711e5a8b3e45e31dfebfb139df247d",
+        "sizeBytes": 19301560,
+        "notes": "制作器工具栏新增「意见反馈」，可直接向云端提交问题与建议；版本 0.1.10。"
+      },
       {
         "version": "0.1.9",
         "date": "2026-07-21",
@@ -88,10 +96,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.9",
+    "latest": "0.1.10",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.10",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.10/Launcher-0.1.10-win64.zip",
+        "sha256": "384240794c710879e6ae4b7b7ea26e71f0d21b0b345cb3342e6df3aaad21f374",
+        "sizeBytes": 173667,
+        "notes": "Launcher 模板同步更新，配合 Builder v0.1.10 使用。"
+      },
       {
         "version": "0.1.9",
         "date": "2026-07-21",
