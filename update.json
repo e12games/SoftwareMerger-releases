@@ -1,10 +1,17 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.2",
+    "latest": "0.1.3",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.3",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.3/SoftwareMergerBuilder-0.1.3-win64.zip",
+        "sha256": "d1fd7265992fd9ea0f9d8eb38ead2aba6ebc7ff3fd36c2980c21abd3bf13b98d",
+        "notes": "新增可选数字签名：导出时可为「一键启动.exe」签名，支持 PFX、Windows 证书库与自签证书生成（测试/内网）。"
+      },
       {
         "version": "0.1.2",
         "date": "2026-07-21",
@@ -29,10 +36,17 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.2",
+    "latest": "0.1.3",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.3",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.3/Launcher-0.1.3-win64.zip",
+        "sha256": "38096dd11e622a0d0dccb343a71a2e3efe49a514e64f0240e6e2922f53423827",
+        "notes": "Launcher 模板包更新，配合 Builder v0.1.3 使用。"
+      },
       {
         "version": "0.1.2",
         "date": "2026-07-21",
