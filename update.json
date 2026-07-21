@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.8",
+    "latest": "0.1.9",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.9",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.9/SoftwareMergerBuilder-0.1.9-win64.zip",
+        "sha256": "1df936eabf6f541085da0bed77420fc3792855a23861fd3881aec54d325f6604",
+        "sizeBytes": 19286588,
+        "notes": "新增独立云统计后台对接：导出可选匿名会话上报与用户意见反馈（softwaremerger.iqiyia.cyou）；Launcher 托盘反馈/--feedback；manifest 支持 telemetry。"
+      },
       {
         "version": "0.1.8",
         "date": "2026-07-21",
@@ -80,10 +88,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.8",
+    "latest": "0.1.9",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.9",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.9/Launcher-0.1.9-win64.zip",
+        "sha256": "0b7227d043c3cdff18adb4a0ba3a922984184656272d0e90299c5635424ec5e5",
+        "sizeBytes": 173667,
+        "notes": "Launcher 支持遥测上报与意见反馈入口，配合 Builder v0.1.9 使用。"
+      },
       {
         "version": "0.1.8",
         "date": "2026-07-21",
