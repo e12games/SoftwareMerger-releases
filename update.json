@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.4",
+    "latest": "0.1.5",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.5",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.5/SoftwareMergerBuilder-0.1.5-win64.zip",
+        "sha256": "365fb2e2cbd4a7c6ecafcbf2c9d2af3b5b2d9eeb4288fa67d6d0addbc8bdb32a",
+        "sizeBytes": 19245280,
+        "notes": "新增可选开机自启动：导出时可配置注册表或计划任务自启「一键启动.exe」；用户可运行「一键启动.exe --autostart」自行开关。"
+      },
       {
         "version": "0.1.4",
         "date": "2026-07-21",
@@ -48,10 +56,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.4",
+    "latest": "0.1.5",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.5",
+        "date": "2026-07-21",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.5/Launcher-0.1.5-win64.zip",
+        "sha256": "67132d31ca7f16ae2493c9b457641d60ada426939355dc0a78ac88f3e65fac3d",
+        "sizeBytes": 149379,
+        "notes": "Launcher 支持 --autostart 自启动管理，配合 Builder v0.1.5 使用。"
+      },
       {
         "version": "0.1.4",
         "date": "2026-07-21",
