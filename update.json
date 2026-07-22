@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.16",
+    "latest": "0.1.17",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.17",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.17/SoftwareMergerBuilder-0.1.17-win64.zip",
+        "sha256": "c251201977e8dc9e62e96a06954ad62186d1e5d80f77ec5a091f00916fd0e388",
+        "sizeBytes": 19316693,
+        "notes": "高级内置改为 EXE 整目录复制（含 dll/ini 等依赖）并支持启动参数；移除 DLL LoadLibrary 选项；内置启动失败写日志并弹窗提示。建议更新后重新配置高级功能并重新导出组合包。"
+      },
       {
         "version": "0.1.16",
         "date": "2026-07-22",
@@ -136,10 +144,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.16",
+    "latest": "0.1.17",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.17",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.17/Launcher-0.1.17-win64.zip",
+        "sha256": "0e97f42a24ddbf9f83e010e0220bea1c4476e653198f8b2b4960f9718226ba3b",
+        "sizeBytes": 179036,
+        "notes": "Launcher 随 Builder v0.1.17 同步：内置 EXE 启动失败弹窗提示；建议配合新版制作器重新导出组合包。"
+      },
       {
         "version": "0.1.16",
         "date": "2026-07-22",
