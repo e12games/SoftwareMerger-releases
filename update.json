@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.18",
+    "latest": "0.1.19",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.19",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.19/SoftwareMergerBuilder-0.1.19-win64.zip",
+        "sha256": "76613d2e5c5a40a3ba8d1827f724d6856db9e9c9bd8f29e076413caa000bc5c4",
+        "sizeBytes": 29830728,
+        "notes": "新增一键启动图标：内置图标库、自定义 .ico、从首个程序提取；导出时写入「一键启动.exe」。含 v0.1.18 编译期固化包等改进。"
+      },
       {
         "version": "0.1.18",
         "date": "2026-07-22",
@@ -152,10 +160,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.18",
+    "latest": "0.1.19",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.19",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.19/Launcher-0.1.19-win64.zip",
+        "sha256": "65cb10a671c595788fdee30e959790b3affc93bed1a7f31bdf491d9d70ef660d",
+        "sizeBytes": 179036,
+        "notes": "Launcher 随 Builder v0.1.19 同步发布。"
+      },
       {
         "version": "0.1.18",
         "date": "2026-07-22",
