@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.20",
+    "latest": "0.1.21",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.21",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.21/SoftwareMergerBuilder-0.1.21-win64.zip",
+        "sha256": "2a330fa86e9edd70ecd701a9dba79bbb83a8f7e5502447edef73a28286eb9d2d",
+        "sizeBytes": 29792053,
+        "notes": "修复 SFX 单文件导出失败（含「一键启动.exe」等中文文件名时压缩失败导致哈希报错）。"
+      },
       {
         "version": "0.1.20",
         "date": "2026-07-22",
@@ -168,10 +176,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.20",
+    "latest": "0.1.21",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.21",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.21/Launcher-0.1.21-win64.zip",
+        "sha256": "98b713f0b3be1d1928a8e30172d1217070aed47d57d28c9331e564d0cddb924c",
+        "sizeBytes": 97003,
+        "notes": "Launcher 随 Builder v0.1.21 同步发布。"
+      },
       {
         "version": "0.1.20",
         "date": "2026-07-22",
