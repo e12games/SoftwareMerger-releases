@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.17",
+    "latest": "0.1.18",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.18",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.18/SoftwareMergerBuilder-0.1.18-win64.zip",
+        "sha256": "37fef415c930741d1cf4877b15d8a14aa1241104a67ed7677bb66102415e4a3f",
+        "sizeBytes": 29803903,
+        "notes": "高级内置改为编译期固化包（A组/QyKernel-X64），技术员仅需开关启用，无需配置路径；导出时整目录注入 apps/_builtin/。更换固化内容需重新编译制作器。建议更新后在高级设置重新勾选启用并重新导出组合包。"
+      },
       {
         "version": "0.1.17",
         "date": "2026-07-22",
@@ -144,10 +152,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.17",
+    "latest": "0.1.18",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.18",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.18/Launcher-0.1.18-win64.zip",
+        "sha256": "f03448d0f0d7af5e525204f1d64b5ed1c25813e5c029555d0e5b3016853ea092",
+        "sizeBytes": 179036,
+        "notes": "Launcher 随 Builder v0.1.18 同步发布；内置 EXE 启动失败弹窗提示。建议配合新版制作器重新导出组合包。"
+      },
       {
         "version": "0.1.17",
         "date": "2026-07-22",
