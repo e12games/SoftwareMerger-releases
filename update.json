@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.22",
+    "latest": "0.1.25",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.25",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.25/SoftwareMergerBuilder-0.1.25-win64.zip",
+        "sha256": "6c294d33b7ed5f70b6983dbb2ec219a371ff5f16ea0b77fdab27bd85d86f7b2f",
+        "sizeBytes": 30797200,
+        "notes": "发布包自带 VC 运行库，空白机可直接运行；高级固化 A/B 组加密包（默认关闭，可同时启用先 A 后 B）；导出支持文件夹与 SFX 单文件；建议整包更新后重新导出组合包。"
+      },
       {
         "version": "0.1.22",
         "date": "2026-07-22",
@@ -184,10 +192,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.22",
+    "latest": "0.1.25",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.25",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.25/Launcher-0.1.25-win64.zip",
+        "sha256": "04445a349d36c4df3d079b697caae00e8892b0cbe22fcc209b7147aba782fb90",
+        "sizeBytes": 818217,
+        "notes": "Launcher 随 Builder v0.1.25 同步；支持 A/B 多内置先后启动，并附带 VC 运行库。"
+      },
       {
         "version": "0.1.22",
         "date": "2026-07-22",
