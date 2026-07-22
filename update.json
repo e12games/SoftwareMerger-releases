@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.21",
+    "latest": "0.1.22",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.22",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.22/SoftwareMergerBuilder-0.1.22-win64.zip",
+        "sha256": "00fd9756843af106bc96ae3cdfe2778a5bf6eaced12559c72c7b88b2d839095c",
+        "sizeBytes": 29792135,
+        "notes": "修复 SFX 导出时 manifest.json 文件占用导致压缩失败。"
+      },
       {
         "version": "0.1.21",
         "date": "2026-07-22",
@@ -176,10 +184,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.21",
+    "latest": "0.1.22",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.22",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.22/Launcher-0.1.22-win64.zip",
+        "sha256": "cd3f5c52c5dc3ec610d31a78e66d89d8c6eb7fd60a8ea1500952293801d92d2c",
+        "sizeBytes": 97002,
+        "notes": "Launcher 随 Builder v0.1.22 同步发布。"
+      },
       {
         "version": "0.1.21",
         "date": "2026-07-22",
