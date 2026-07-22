@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.19",
+    "latest": "0.1.20",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.20",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.20/SoftwareMergerBuilder-0.1.20-win64.zip",
+        "sha256": "3ceaf88ca10f56db7d154f3b18c64d6cfa0457276a0fb30fb211adafcc43ebff",
+        "sizeBytes": 29791552,
+        "notes": "导出新增单文件自解压（SFX）：适合发给用户一个 EXE；首次运行解压到本机缓存，内容更新自动替换旧缓存，可用「组合名.exe --clean-cache」清理。保留文件夹导出。修复制作器启动崩溃。"
+      },
       {
         "version": "0.1.19",
         "date": "2026-07-22",
@@ -160,10 +168,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.19",
+    "latest": "0.1.20",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.20",
+        "date": "2026-07-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.20/Launcher-0.1.20-win64.zip",
+        "sha256": "8b9f3ba9afdeb76d97d685308b87f80f0d031397c594b829dc80788f2bb74261",
+        "sizeBytes": 97003,
+        "notes": "Launcher 随 Builder v0.1.20 同步发布；建议配合新版制作器重新导出组合包。"
+      },
       {
         "version": "0.1.19",
         "date": "2026-07-22",
