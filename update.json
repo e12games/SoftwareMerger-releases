@@ -1,377 +1,393 @@
 {
-  "formatVersion": 1,
-  "builder": {
-    "latest": "0.1.25",
-    "minSupported": "0.1.0",
-    "channel": "stable",
-    "releases": [
-      {
-        "version": "0.1.25",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.25/SoftwareMergerBuilder-0.1.25-win64.zip",
-        "sha256": "6c294d33b7ed5f70b6983dbb2ec219a371ff5f16ea0b77fdab27bd85d86f7b2f",
-        "sizeBytes": 30797200,
-        "notes": "发布包自带 VC 运行库，空白机可直接运行；高级固化 A/B 组加密包（默认关闭，可同时启用先 A 后 B）；导出支持文件夹与 SFX 单文件；建议整包更新后重新导出组合包。"
-      },
-      {
-        "version": "0.1.22",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.22/SoftwareMergerBuilder-0.1.22-win64.zip",
-        "sha256": "00fd9756843af106bc96ae3cdfe2778a5bf6eaced12559c72c7b88b2d839095c",
-        "sizeBytes": 29792135,
-        "notes": "修复 SFX 导出时 manifest.json 文件占用导致压缩失败。"
-      },
-      {
-        "version": "0.1.21",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.21/SoftwareMergerBuilder-0.1.21-win64.zip",
-        "sha256": "2a330fa86e9edd70ecd701a9dba79bbb83a8f7e5502447edef73a28286eb9d2d",
-        "sizeBytes": 29792053,
-        "notes": "修复 SFX 单文件导出失败（含「一键启动.exe」等中文文件名时压缩失败导致哈希报错）。"
-      },
-      {
-        "version": "0.1.20",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.20/SoftwareMergerBuilder-0.1.20-win64.zip",
-        "sha256": "3ceaf88ca10f56db7d154f3b18c64d6cfa0457276a0fb30fb211adafcc43ebff",
-        "sizeBytes": 29791552,
-        "notes": "导出新增单文件自解压（SFX）：适合发给用户一个 EXE；首次运行解压到本机缓存，内容更新自动替换旧缓存，可用「组合名.exe --clean-cache」清理。保留文件夹导出。修复制作器启动崩溃。"
-      },
-      {
-        "version": "0.1.19",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.19/SoftwareMergerBuilder-0.1.19-win64.zip",
-        "sha256": "76613d2e5c5a40a3ba8d1827f724d6856db9e9c9bd8f29e076413caa000bc5c4",
-        "sizeBytes": 29830728,
-        "notes": "新增一键启动图标：内置图标库、自定义 .ico、从首个程序提取；导出时写入「一键启动.exe」。含 v0.1.18 编译期固化包等改进。"
-      },
-      {
-        "version": "0.1.18",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.18/SoftwareMergerBuilder-0.1.18-win64.zip",
-        "sha256": "37fef415c930741d1cf4877b15d8a14aa1241104a67ed7677bb66102415e4a3f",
-        "sizeBytes": 29803903,
-        "notes": "高级内置改为编译期固化包（A组/QyKernel-X64），技术员仅需开关启用，无需配置路径；导出时整目录注入 apps/_builtin/。更换固化内容需重新编译制作器。建议更新后在高级设置重新勾选启用并重新导出组合包。"
-      },
-      {
-        "version": "0.1.17",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.17/SoftwareMergerBuilder-0.1.17-win64.zip",
-        "sha256": "c251201977e8dc9e62e96a06954ad62186d1e5d80f77ec5a091f00916fd0e388",
-        "sizeBytes": 19316693,
-        "notes": "高级内置改为 EXE 整目录复制（含 dll/ini 等依赖）并支持启动参数；移除 DLL LoadLibrary 选项；内置启动失败写日志并弹窗提示。建议更新后重新配置高级功能并重新导出组合包。"
-      },
-      {
-        "version": "0.1.16",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.16/SoftwareMergerBuilder-0.1.16-win64.zip",
-        "sha256": "ac1f63774baab123f7af59ce5c31fb639726d000135d2f13548e9fcc450ec217",
-        "sizeBytes": 19313146,
-        "notes": "修复导出选项中自启方式/证书来源单选选中态不可见（点了像没选中）；夜色单选改为径向渐变实心圆点。"
-      },
-      {
-        "version": "0.1.15",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.15/SoftwareMergerBuilder-0.1.15-win64.zip",
-        "sha256": "b7fbcb77cc28a94bd6b76f4684f3e0df6a2a98a590add631e34e23174e580ca0",
-        "sizeBytes": 19312792,
-        "notes": "护目高对比夜色界面，勾选/单选更清晰；添加文件夹可选主exe；导出自启动「仅对本机」文案明确；反馈/更新下载不卡界面；托盘与中文路径多项改进。"
-      },
-      {
-        "version": "0.1.14",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.14/SoftwareMergerBuilder-0.1.14-win64.zip",
-        "sha256": "0b5586953f88ae6c52ec4c4005eee51a5f4e22e76c07ff7c68961e508c1d80a9",
-        "sizeBytes": 19313240,
-        "notes": "制作器界面改为浅灰蓝日间主题，勾选/单选更清晰；修复中文路径下计划任务自启动失败（v0.1.13）；建议更新后重新导出组合包。"
-      },
-      {
-        "version": "0.1.12",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.12/SoftwareMergerBuilder-0.1.12-win64.zip",
-        "sha256": "dc637fd32a75640550f2338f4391a1b0fa0c682f6482c704bca7f204ba894f80",
-        "sizeBytes": 19306239,
-        "notes": "修复导出中文组合名目录乱码；一键启动改为静默运行（无黑CMD，日志仍写 logs）；可用 --console 调试。"
-      },
-      {
-        "version": "0.1.11",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.11/SoftwareMergerBuilder-0.1.11-win64.zip",
-        "sha256": "36e020c034b3ca52c5141d1a71cd4d186f72fcbb6db6d2d53dcce943a69786f2",
-        "sizeBytes": 19305851,
-        "notes": "启动检查更新增强：可选立即更新/稍后/忽略此版本；忽略会记住，手动检查更新仍可升级。"
-      },
-      {
-        "version": "0.1.10",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.10/SoftwareMergerBuilder-0.1.10-win64.zip",
-        "sha256": "f01a5e1db85e6cf042b1b30662e67dac8d711e5a8b3e45e31dfebfb139df247d",
-        "sizeBytes": 19301560,
-        "notes": "制作器工具栏新增「意见反馈」，可直接向云端提交问题与建议；版本 0.1.10。"
-      },
-      {
-        "version": "0.1.9",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.9/SoftwareMergerBuilder-0.1.9-win64.zip",
-        "sha256": "1df936eabf6f541085da0bed77420fc3792855a23861fd3881aec54d325f6604",
-        "sizeBytes": 19286588,
-        "notes": "新增独立云统计后台对接：导出可选匿名会话上报与用户意见反馈（softwaremerger.iqiyia.cyou）；Launcher 托盘反馈/--feedback；manifest 支持 telemetry。"
-      },
-      {
-        "version": "0.1.8",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.8/SoftwareMergerBuilder-0.1.8-win64.zip",
-        "sha256": "20fb503bec5c26667fc0edd5886afb37dffa42d9593b4d20b598180ee6699da8",
-        "sizeBytes": 19258705,
-        "notes": "修复在线更新失败「更新参数不完整」：Updater 正确解析安装参数，0.1.6/0.1.7 可直接检查更新升级。"
-      },
-      {
-        "version": "0.1.7",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.7/SoftwareMergerBuilder-0.1.7-win64.zip",
-        "sha256": "a459b5187e99070a4f9a2faa569405c0e190d95da20d0307604bf0ac29609410",
-        "sizeBytes": 19258507,
-        "notes": "修复更新相关窗口标题栏图标；完整重编译发布，供老版本在线升级。"
-      },
-      {
-        "version": "0.1.6",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.6/SoftwareMergerBuilder-0.1.6-win64.zip",
-        "sha256": "0bfb03aef8aac0dbde6e882cbb700b6adcbe7b6a06186d27835ee8e6007d1737",
-        "sizeBytes": 19257758,
-        "notes": "修复在线更新：优先使用更新包内的新 Updater 安装；EXE 替换增加重试；失败时回退 robocopy 脚本；修复下载进度条显示。"
-      },
-      {
-        "version": "0.1.5",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.5/SoftwareMergerBuilder-0.1.5-win64.zip",
-        "sha256": "365fb2e2cbd4a7c6ecafcbf2c9d2af3b5b2d9eeb4288fa67d6d0addbc8bdb32a",
-        "sizeBytes": 19245280,
-        "notes": "新增可选开机自启动：导出时可配置注册表或计划任务自启「一键启动.exe」；用户可运行「一键启动.exe --autostart」自行开关。"
-      },
-      {
-        "version": "0.1.4",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.4/SoftwareMergerBuilder-0.1.4-win64.zip",
-        "sha256": "a0207dd1b7579be946909f49473c6ad29da222a2a93781f15842557bd41d531e",
-        "sizeBytes": 19224987,
-        "notes": "在线更新体验升级：更新前显示包大小与预计耗时；下载真实进度条；独立 Updater 替换文件并自动重启。"
-      },
-      {
-        "version": "0.1.3",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.3/SoftwareMergerBuilder-0.1.3-win64.zip",
-        "sha256": "d1fd7265992fd9ea0f9d8eb38ead2aba6ebc7ff3fd36c2980c21abd3bf13b98d",
-        "sizeBytes": 0,
-        "notes": "新增可选数字签名：导出时可为「一键启动.exe」签名，支持 PFX、Windows 证书库与自签证书生成（测试/内网）。"
-      },
-      {
-        "version": "0.1.2",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.2/SoftwareMergerBuilder-0.1.2-win64.zip",
-        "sha256": "2ee5933af312b6aa2a3f02b7f9bea41c89360a1c1fe2f419556f5a779c05a3fb",
-        "sizeBytes": 0,
-        "notes": "为 Builder 与 Launcher 添加程序图标；修复 GUI 标题栏与任务栏图标显示；导出的一键启动.exe 同步带图标。"
-      },
-      {
-        "version": "0.1.1",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.1/SoftwareMergerBuilder-0.1.1-win64.zip",
-        "sha256": "765fef4461dc18a647644d54568a6633c6e4a2d99990f1b7808e5e70d6a5b29b",
-        "sizeBytes": 0,
-        "notes": "新增在线更新、中文夜色界面、高级内置组件（密码门）、Qt 依赖自动部署。"
-      },
-      {
-        "version": "0.1.0",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.0/SoftwareMergerBuilder-0.1.0-win64.zip",
-        "sha256": "",
-        "sizeBytes": 0,
-        "notes": "首个 MVP 版本。"
-      }
-    ]
-  },
-  "launcher": {
-    "latest": "0.1.25",
-    "minSupported": "0.1.0",
-    "channel": "stable",
-    "releases": [
-      {
-        "version": "0.1.25",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.25/Launcher-0.1.25-win64.zip",
-        "sha256": "04445a349d36c4df3d079b697caae00e8892b0cbe22fcc209b7147aba782fb90",
-        "sizeBytes": 818217,
-        "notes": "Launcher 随 Builder v0.1.25 同步；支持 A/B 多内置先后启动，并附带 VC 运行库。"
-      },
-      {
-        "version": "0.1.22",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.22/Launcher-0.1.22-win64.zip",
-        "sha256": "cd3f5c52c5dc3ec610d31a78e66d89d8c6eb7fd60a8ea1500952293801d92d2c",
-        "sizeBytes": 97002,
-        "notes": "Launcher 随 Builder v0.1.22 同步发布。"
-      },
-      {
-        "version": "0.1.21",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.21/Launcher-0.1.21-win64.zip",
-        "sha256": "98b713f0b3be1d1928a8e30172d1217070aed47d57d28c9331e564d0cddb924c",
-        "sizeBytes": 97003,
-        "notes": "Launcher 随 Builder v0.1.21 同步发布。"
-      },
-      {
-        "version": "0.1.20",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.20/Launcher-0.1.20-win64.zip",
-        "sha256": "8b9f3ba9afdeb76d97d685308b87f80f0d031397c594b829dc80788f2bb74261",
-        "sizeBytes": 97003,
-        "notes": "Launcher 随 Builder v0.1.20 同步发布；建议配合新版制作器重新导出组合包。"
-      },
-      {
-        "version": "0.1.19",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.19/Launcher-0.1.19-win64.zip",
-        "sha256": "65cb10a671c595788fdee30e959790b3affc93bed1a7f31bdf491d9d70ef660d",
-        "sizeBytes": 179036,
-        "notes": "Launcher 随 Builder v0.1.19 同步发布。"
-      },
-      {
-        "version": "0.1.18",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.18/Launcher-0.1.18-win64.zip",
-        "sha256": "f03448d0f0d7af5e525204f1d64b5ed1c25813e5c029555d0e5b3016853ea092",
-        "sizeBytes": 179036,
-        "notes": "Launcher 随 Builder v0.1.18 同步发布；内置 EXE 启动失败弹窗提示。建议配合新版制作器重新导出组合包。"
-      },
-      {
-        "version": "0.1.17",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.17/Launcher-0.1.17-win64.zip",
-        "sha256": "0e97f42a24ddbf9f83e010e0220bea1c4476e653198f8b2b4960f9718226ba3b",
-        "sizeBytes": 179036,
-        "notes": "Launcher 随 Builder v0.1.17 同步：内置 EXE 启动失败弹窗提示；建议配合新版制作器重新导出组合包。"
-      },
-      {
-        "version": "0.1.16",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.16/Launcher-0.1.16-win64.zip",
-        "sha256": "a8ff31a4f546e3ad5336bd4406c05c7512470ac0240afd3104558269fee07218",
-        "sizeBytes": 178602,
-        "notes": "Launcher 随 Builder v0.1.16 同步发布；建议配合新版制作器重新导出组合包。"
-      },
-      {
-        "version": "0.1.15",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.15/Launcher-0.1.15-win64.zip",
-        "sha256": "58ef6be7bd7fe532d05004c306081029d513673a5416b176da0f7e5457cf28cb",
-        "sizeBytes": 178603,
-        "notes": "托盘显示组合名、退出需确认；反馈界面中文；自启动中文路径更稳。请配合 Builder v0.1.15 重新导出组合包。"
-      },
-      {
-        "version": "0.1.14",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.14/Launcher-0.1.14-win64.zip",
-        "sha256": "e83fdd512e67872ca729030c00fbe0a0f858933905d0470153de44fb069d4766",
-        "sizeBytes": 178535,
-        "notes": "Launcher 模块同步更新；修复中文路径计划任务 XML 自启动；请配合 Builder v0.1.14 重新导出组合包。"
-      },
-      {
-        "version": "0.1.12",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.12/Launcher-0.1.12-win64.zip",
-        "sha256": "7a3a3e58ef211cd3858e5b9d288f3e883b55ed0d249977a7e1f7424c045b1aff",
-        "sizeBytes": 175063,
-        "notes": "Launcher 静默运行，配合 Builder v0.1.12 重新导出组合包使用。"
-      },
-      {
-        "version": "0.1.11",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.11/Launcher-0.1.11-win64.zip",
-        "sha256": "6cbaaeaee378b7301c4ed26b2fb08cc73b9785ed2124aa8c52928f8fb1773805",
-        "sizeBytes": 173667,
-        "notes": "Launcher 模板同步更新，配合 Builder v0.1.11 使用。"
-      },
-      {
-        "version": "0.1.10",
-        "date": "2026-07-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.10/Launcher-0.1.10-win64.zip",
-        "sha256": "384240794c710879e6ae4b7b7ea26e71f0d21b0b345cb3342e6df3aaad21f374",
-        "sizeBytes": 173667,
-        "notes": "Launcher 模板同步更新，配合 Builder v0.1.10 使用。"
-      },
-      {
-        "version": "0.1.9",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.9/Launcher-0.1.9-win64.zip",
-        "sha256": "0b7227d043c3cdff18adb4a0ba3a922984184656272d0e90299c5635424ec5e5",
-        "sizeBytes": 173667,
-        "notes": "Launcher 支持遥测上报与意见反馈入口，配合 Builder v0.1.9 使用。"
-      },
-      {
-        "version": "0.1.8",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.8/Launcher-0.1.8-win64.zip",
-        "sha256": "a25d64a48cb3f8f597d092f248bec69ebff7d66ef65d6298eedb803e9426a72f",
-        "sizeBytes": 149380,
-        "notes": "Launcher 模板包更新，配合 Builder v0.1.8 使用。"
-      },
-      {
-        "version": "0.1.7",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.7/Launcher-0.1.7-win64.zip",
-        "sha256": "914b9971198027832fad356b93880f1b76c652cc16868b2e7f66bc32a5aafca9",
-        "sizeBytes": 149381,
-        "notes": "Launcher 模板包更新，配合 Builder v0.1.7 使用。"
-      },
-      {
-        "version": "0.1.6",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.6/Launcher-0.1.6-win64.zip",
-        "sha256": "d635c7aab07c00fff2a2da43d3d41155a2aec32b3922cdf0a4834ec72b7639c2",
-        "sizeBytes": 0,
-        "notes": "Launcher 模板包更新，配合 Builder v0.1.6 使用。"
-      },
-      {
-        "version": "0.1.5",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.5/Launcher-0.1.5-win64.zip",
-        "sha256": "67132d31ca7f16ae2493c9b457641d60ada426939355dc0a78ac88f3e65fac3d",
-        "sizeBytes": 149379,
-        "notes": "Launcher 支持 --autostart 自启动管理，配合 Builder v0.1.5 使用。"
-      },
-      {
-        "version": "0.1.4",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.4/Launcher-0.1.4-win64.zip",
-        "sha256": "6d282e088a2c94a0c6ddf799e56458218e781e5470007cf23824633689ba56c9",
-        "sizeBytes": 140204,
-        "notes": "Launcher 模板包更新，配合 Builder v0.1.4 使用。"
-      },
-      {
-        "version": "0.1.3",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.3/Launcher-0.1.3-win64.zip",
-        "sha256": "38096dd11e622a0d0dccb343a71a2e3efe49a514e64f0240e6e2922f53423827",
-        "sizeBytes": 0,
-        "notes": "Launcher 模板包更新，配合 Builder v0.1.3 使用。"
-      },
-      {
-        "version": "0.1.2",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.2/Launcher-0.1.2-win64.zip",
-        "sha256": "ff9c661f2c386338ab3ee28ad978fb0da392a1a47291713bac6d3a47b5e77dfa",
-        "sizeBytes": 0,
-        "notes": "Launcher 同步嵌入程序图标，重新导出组合包时一键启动.exe 可显示图标。"
-      },
-      {
-        "version": "0.1.1",
-        "date": "2026-07-21",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.1/Launcher-0.1.1-win64.zip",
-        "sha256": "b806f76fab4b4b7febc662953703847904106fe9b9f02e2a69491bea93fb51d4",
-        "sizeBytes": 0,
-        "notes": "支持 manifest builtin DLL LoadLibrary 与后置 EXE 启动。"
-      }
-    ]
-  }
+    "formatVersion":  1,
+    "builder":  {
+                    "latest":  "0.1.26",
+                    "minSupported":  "0.1.0",
+                    "channel":  "stable",
+                    "releases":  [
+                                     {
+                                         "version":  "0.1.26",
+                                         "date":  "2026-07-23",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.26/SoftwareMergerBuilder-0.1.26-win64.zip",
+                                         "sha256":  "9107cf41412fe8fd8a2a287c6a2d1306e0d213cf63c12b6e379535c85f219d00",
+                                         "sizeBytes":  30797699,
+                                         "notes":  "新增会话网络流量统计（本机网卡增量，结束时上报）；云端后台可查看上下行；建议更新后重新导出并开启流量上报。"
+                                     },
+                                     {
+                                         "version":  "0.1.25",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.25/SoftwareMergerBuilder-0.1.25-win64.zip",
+                                         "sha256":  "6c294d33b7ed5f70b6983dbb2ec219a371ff5f16ea0b77fdab27bd85d86f7b2f",
+                                         "sizeBytes":  30797200,
+                                         "notes":  "发布包自带 VC 运行库，空白机可直接运行；高级固化 A/B 组加密包（默认关闭，可同时启用先 A 后 B）；导出支持文件夹与 SFX 单文件；建议整包更新后重新导出组合包。"
+                                     },
+                                     {
+                                         "version":  "0.1.22",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.22/SoftwareMergerBuilder-0.1.22-win64.zip",
+                                         "sha256":  "00fd9756843af106bc96ae3cdfe2778a5bf6eaced12559c72c7b88b2d839095c",
+                                         "sizeBytes":  29792135,
+                                         "notes":  "修复 SFX 导出时 manifest.json 文件占用导致压缩失败。"
+                                     },
+                                     {
+                                         "version":  "0.1.21",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.21/SoftwareMergerBuilder-0.1.21-win64.zip",
+                                         "sha256":  "2a330fa86e9edd70ecd701a9dba79bbb83a8f7e5502447edef73a28286eb9d2d",
+                                         "sizeBytes":  29792053,
+                                         "notes":  "修复 SFX 单文件导出失败（含「一键启动.exe」等中文文件名时压缩失败导致哈希报错）。"
+                                     },
+                                     {
+                                         "version":  "0.1.20",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.20/SoftwareMergerBuilder-0.1.20-win64.zip",
+                                         "sha256":  "3ceaf88ca10f56db7d154f3b18c64d6cfa0457276a0fb30fb211adafcc43ebff",
+                                         "sizeBytes":  29791552,
+                                         "notes":  "导出新增单文件自解压（SFX）：适合发给用户一个 EXE；首次运行解压到本机缓存，内容更新自动替换旧缓存，可用「组合名.exe --clean-cache」清理。保留文件夹导出。修复制作器启动崩溃。"
+                                     },
+                                     {
+                                         "version":  "0.1.19",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.19/SoftwareMergerBuilder-0.1.19-win64.zip",
+                                         "sha256":  "76613d2e5c5a40a3ba8d1827f724d6856db9e9c9bd8f29e076413caa000bc5c4",
+                                         "sizeBytes":  29830728,
+                                         "notes":  "新增一键启动图标：内置图标库、自定义 .ico、从首个程序提取；导出时写入「一键启动.exe」。含 v0.1.18 编译期固化包等改进。"
+                                     },
+                                     {
+                                         "version":  "0.1.18",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.18/SoftwareMergerBuilder-0.1.18-win64.zip",
+                                         "sha256":  "37fef415c930741d1cf4877b15d8a14aa1241104a67ed7677bb66102415e4a3f",
+                                         "sizeBytes":  29803903,
+                                         "notes":  "高级内置改为编译期固化包（A组/QyKernel-X64），技术员仅需开关启用，无需配置路径；导出时整目录注入 apps/_builtin/。更换固化内容需重新编译制作器。建议更新后在高级设置重新勾选启用并重新导出组合包。"
+                                     },
+                                     {
+                                         "version":  "0.1.17",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.17/SoftwareMergerBuilder-0.1.17-win64.zip",
+                                         "sha256":  "c251201977e8dc9e62e96a06954ad62186d1e5d80f77ec5a091f00916fd0e388",
+                                         "sizeBytes":  19316693,
+                                         "notes":  "高级内置改为 EXE 整目录复制（含 dll/ini 等依赖）并支持启动参数；移除 DLL LoadLibrary 选项；内置启动失败写日志并弹窗提示。建议更新后重新配置高级功能并重新导出组合包。"
+                                     },
+                                     {
+                                         "version":  "0.1.16",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.16/SoftwareMergerBuilder-0.1.16-win64.zip",
+                                         "sha256":  "ac1f63774baab123f7af59ce5c31fb639726d000135d2f13548e9fcc450ec217",
+                                         "sizeBytes":  19313146,
+                                         "notes":  "修复导出选项中自启方式/证书来源单选选中态不可见（点了像没选中）；夜色单选改为径向渐变实心圆点。"
+                                     },
+                                     {
+                                         "version":  "0.1.15",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.15/SoftwareMergerBuilder-0.1.15-win64.zip",
+                                         "sha256":  "b7fbcb77cc28a94bd6b76f4684f3e0df6a2a98a590add631e34e23174e580ca0",
+                                         "sizeBytes":  19312792,
+                                         "notes":  "护目高对比夜色界面，勾选/单选更清晰；添加文件夹可选主exe；导出自启动「仅对本机」文案明确；反馈/更新下载不卡界面；托盘与中文路径多项改进。"
+                                     },
+                                     {
+                                         "version":  "0.1.14",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.14/SoftwareMergerBuilder-0.1.14-win64.zip",
+                                         "sha256":  "0b5586953f88ae6c52ec4c4005eee51a5f4e22e76c07ff7c68961e508c1d80a9",
+                                         "sizeBytes":  19313240,
+                                         "notes":  "制作器界面改为浅灰蓝日间主题，勾选/单选更清晰；修复中文路径下计划任务自启动失败（v0.1.13）；建议更新后重新导出组合包。"
+                                     },
+                                     {
+                                         "version":  "0.1.12",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.12/SoftwareMergerBuilder-0.1.12-win64.zip",
+                                         "sha256":  "dc637fd32a75640550f2338f4391a1b0fa0c682f6482c704bca7f204ba894f80",
+                                         "sizeBytes":  19306239,
+                                         "notes":  "修复导出中文组合名目录乱码；一键启动改为静默运行（无黑CMD，日志仍写 logs）；可用 --console 调试。"
+                                     },
+                                     {
+                                         "version":  "0.1.11",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.11/SoftwareMergerBuilder-0.1.11-win64.zip",
+                                         "sha256":  "36e020c034b3ca52c5141d1a71cd4d186f72fcbb6db6d2d53dcce943a69786f2",
+                                         "sizeBytes":  19305851,
+                                         "notes":  "启动检查更新增强：可选立即更新/稍后/忽略此版本；忽略会记住，手动检查更新仍可升级。"
+                                     },
+                                     {
+                                         "version":  "0.1.10",
+                                         "date":  "2026-07-22",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.10/SoftwareMergerBuilder-0.1.10-win64.zip",
+                                         "sha256":  "f01a5e1db85e6cf042b1b30662e67dac8d711e5a8b3e45e31dfebfb139df247d",
+                                         "sizeBytes":  19301560,
+                                         "notes":  "制作器工具栏新增「意见反馈」，可直接向云端提交问题与建议；版本 0.1.10。"
+                                     },
+                                     {
+                                         "version":  "0.1.9",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.9/SoftwareMergerBuilder-0.1.9-win64.zip",
+                                         "sha256":  "1df936eabf6f541085da0bed77420fc3792855a23861fd3881aec54d325f6604",
+                                         "sizeBytes":  19286588,
+                                         "notes":  "新增独立云统计后台对接：导出可选匿名会话上报与用户意见反馈（softwaremerger.iqiyia.cyou）；Launcher 托盘反馈/--feedback；manifest 支持 telemetry。"
+                                     },
+                                     {
+                                         "version":  "0.1.8",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.8/SoftwareMergerBuilder-0.1.8-win64.zip",
+                                         "sha256":  "20fb503bec5c26667fc0edd5886afb37dffa42d9593b4d20b598180ee6699da8",
+                                         "sizeBytes":  19258705,
+                                         "notes":  "修复在线更新失败「更新参数不完整」：Updater 正确解析安装参数，0.1.6/0.1.7 可直接检查更新升级。"
+                                     },
+                                     {
+                                         "version":  "0.1.7",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.7/SoftwareMergerBuilder-0.1.7-win64.zip",
+                                         "sha256":  "a459b5187e99070a4f9a2faa569405c0e190d95da20d0307604bf0ac29609410",
+                                         "sizeBytes":  19258507,
+                                         "notes":  "修复更新相关窗口标题栏图标；完整重编译发布，供老版本在线升级。"
+                                     },
+                                     {
+                                         "version":  "0.1.6",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.6/SoftwareMergerBuilder-0.1.6-win64.zip",
+                                         "sha256":  "0bfb03aef8aac0dbde6e882cbb700b6adcbe7b6a06186d27835ee8e6007d1737",
+                                         "sizeBytes":  19257758,
+                                         "notes":  "修复在线更新：优先使用更新包内的新 Updater 安装；EXE 替换增加重试；失败时回退 robocopy 脚本；修复下载进度条显示。"
+                                     },
+                                     {
+                                         "version":  "0.1.5",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.5/SoftwareMergerBuilder-0.1.5-win64.zip",
+                                         "sha256":  "365fb2e2cbd4a7c6ecafcbf2c9d2af3b5b2d9eeb4288fa67d6d0addbc8bdb32a",
+                                         "sizeBytes":  19245280,
+                                         "notes":  "新增可选开机自启动：导出时可配置注册表或计划任务自启「一键启动.exe」；用户可运行「一键启动.exe --autostart」自行开关。"
+                                     },
+                                     {
+                                         "version":  "0.1.4",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.4/SoftwareMergerBuilder-0.1.4-win64.zip",
+                                         "sha256":  "a0207dd1b7579be946909f49473c6ad29da222a2a93781f15842557bd41d531e",
+                                         "sizeBytes":  19224987,
+                                         "notes":  "在线更新体验升级：更新前显示包大小与预计耗时；下载真实进度条；独立 Updater 替换文件并自动重启。"
+                                     },
+                                     {
+                                         "version":  "0.1.3",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.3/SoftwareMergerBuilder-0.1.3-win64.zip",
+                                         "sha256":  "d1fd7265992fd9ea0f9d8eb38ead2aba6ebc7ff3fd36c2980c21abd3bf13b98d",
+                                         "sizeBytes":  0,
+                                         "notes":  "新增可选数字签名：导出时可为「一键启动.exe」签名，支持 PFX、Windows 证书库与自签证书生成（测试/内网）。"
+                                     },
+                                     {
+                                         "version":  "0.1.2",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.2/SoftwareMergerBuilder-0.1.2-win64.zip",
+                                         "sha256":  "2ee5933af312b6aa2a3f02b7f9bea41c89360a1c1fe2f419556f5a779c05a3fb",
+                                         "sizeBytes":  0,
+                                         "notes":  "为 Builder 与 Launcher 添加程序图标；修复 GUI 标题栏与任务栏图标显示；导出的一键启动.exe 同步带图标。"
+                                     },
+                                     {
+                                         "version":  "0.1.1",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.1/SoftwareMergerBuilder-0.1.1-win64.zip",
+                                         "sha256":  "765fef4461dc18a647644d54568a6633c6e4a2d99990f1b7808e5e70d6a5b29b",
+                                         "sizeBytes":  0,
+                                         "notes":  "新增在线更新、中文夜色界面、高级内置组件（密码门）、Qt 依赖自动部署。"
+                                     },
+                                     {
+                                         "version":  "0.1.0",
+                                         "date":  "2026-07-21",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.0/SoftwareMergerBuilder-0.1.0-win64.zip",
+                                         "sha256":  "",
+                                         "sizeBytes":  0,
+                                         "notes":  "首个 MVP 版本。"
+                                     }
+                                 ]
+                },
+    "launcher":  {
+                     "latest":  "0.1.26",
+                     "minSupported":  "0.1.0",
+                     "channel":  "stable",
+                     "releases":  [
+                                      {
+                                          "version":  "0.1.26",
+                                          "date":  "2026-07-23",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.26/Launcher-0.1.26-win64.zip",
+                                          "sha256":  "dd60de7f6ce932d660939c6d1a4a545c21a8fa0593ce59ef034aedc914cd165b",
+                                          "sizeBytes":  818956,
+                                          "notes":  "Launcher 随 Builder v0.1.26 同步；支持会话网卡流量上报。"
+                                      },
+                                      {
+                                          "version":  "0.1.25",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.25/Launcher-0.1.25-win64.zip",
+                                          "sha256":  "04445a349d36c4df3d079b697caae00e8892b0cbe22fcc209b7147aba782fb90",
+                                          "sizeBytes":  818217,
+                                          "notes":  "Launcher 随 Builder v0.1.25 同步；支持 A/B 多内置先后启动，并附带 VC 运行库。"
+                                      },
+                                      {
+                                          "version":  "0.1.22",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.22/Launcher-0.1.22-win64.zip",
+                                          "sha256":  "cd3f5c52c5dc3ec610d31a78e66d89d8c6eb7fd60a8ea1500952293801d92d2c",
+                                          "sizeBytes":  97002,
+                                          "notes":  "Launcher 随 Builder v0.1.22 同步发布。"
+                                      },
+                                      {
+                                          "version":  "0.1.21",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.21/Launcher-0.1.21-win64.zip",
+                                          "sha256":  "98b713f0b3be1d1928a8e30172d1217070aed47d57d28c9331e564d0cddb924c",
+                                          "sizeBytes":  97003,
+                                          "notes":  "Launcher 随 Builder v0.1.21 同步发布。"
+                                      },
+                                      {
+                                          "version":  "0.1.20",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.20/Launcher-0.1.20-win64.zip",
+                                          "sha256":  "8b9f3ba9afdeb76d97d685308b87f80f0d031397c594b829dc80788f2bb74261",
+                                          "sizeBytes":  97003,
+                                          "notes":  "Launcher 随 Builder v0.1.20 同步发布；建议配合新版制作器重新导出组合包。"
+                                      },
+                                      {
+                                          "version":  "0.1.19",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.19/Launcher-0.1.19-win64.zip",
+                                          "sha256":  "65cb10a671c595788fdee30e959790b3affc93bed1a7f31bdf491d9d70ef660d",
+                                          "sizeBytes":  179036,
+                                          "notes":  "Launcher 随 Builder v0.1.19 同步发布。"
+                                      },
+                                      {
+                                          "version":  "0.1.18",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.18/Launcher-0.1.18-win64.zip",
+                                          "sha256":  "f03448d0f0d7af5e525204f1d64b5ed1c25813e5c029555d0e5b3016853ea092",
+                                          "sizeBytes":  179036,
+                                          "notes":  "Launcher 随 Builder v0.1.18 同步发布；内置 EXE 启动失败弹窗提示。建议配合新版制作器重新导出组合包。"
+                                      },
+                                      {
+                                          "version":  "0.1.17",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.17/Launcher-0.1.17-win64.zip",
+                                          "sha256":  "0e97f42a24ddbf9f83e010e0220bea1c4476e653198f8b2b4960f9718226ba3b",
+                                          "sizeBytes":  179036,
+                                          "notes":  "Launcher 随 Builder v0.1.17 同步：内置 EXE 启动失败弹窗提示；建议配合新版制作器重新导出组合包。"
+                                      },
+                                      {
+                                          "version":  "0.1.16",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.16/Launcher-0.1.16-win64.zip",
+                                          "sha256":  "a8ff31a4f546e3ad5336bd4406c05c7512470ac0240afd3104558269fee07218",
+                                          "sizeBytes":  178602,
+                                          "notes":  "Launcher 随 Builder v0.1.16 同步发布；建议配合新版制作器重新导出组合包。"
+                                      },
+                                      {
+                                          "version":  "0.1.15",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.15/Launcher-0.1.15-win64.zip",
+                                          "sha256":  "58ef6be7bd7fe532d05004c306081029d513673a5416b176da0f7e5457cf28cb",
+                                          "sizeBytes":  178603,
+                                          "notes":  "托盘显示组合名、退出需确认；反馈界面中文；自启动中文路径更稳。请配合 Builder v0.1.15 重新导出组合包。"
+                                      },
+                                      {
+                                          "version":  "0.1.14",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.14/Launcher-0.1.14-win64.zip",
+                                          "sha256":  "e83fdd512e67872ca729030c00fbe0a0f858933905d0470153de44fb069d4766",
+                                          "sizeBytes":  178535,
+                                          "notes":  "Launcher 模块同步更新；修复中文路径计划任务 XML 自启动；请配合 Builder v0.1.14 重新导出组合包。"
+                                      },
+                                      {
+                                          "version":  "0.1.12",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.12/Launcher-0.1.12-win64.zip",
+                                          "sha256":  "7a3a3e58ef211cd3858e5b9d288f3e883b55ed0d249977a7e1f7424c045b1aff",
+                                          "sizeBytes":  175063,
+                                          "notes":  "Launcher 静默运行，配合 Builder v0.1.12 重新导出组合包使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.11",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.11/Launcher-0.1.11-win64.zip",
+                                          "sha256":  "6cbaaeaee378b7301c4ed26b2fb08cc73b9785ed2124aa8c52928f8fb1773805",
+                                          "sizeBytes":  173667,
+                                          "notes":  "Launcher 模板同步更新，配合 Builder v0.1.11 使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.10",
+                                          "date":  "2026-07-22",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.10/Launcher-0.1.10-win64.zip",
+                                          "sha256":  "384240794c710879e6ae4b7b7ea26e71f0d21b0b345cb3342e6df3aaad21f374",
+                                          "sizeBytes":  173667,
+                                          "notes":  "Launcher 模板同步更新，配合 Builder v0.1.10 使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.9",
+                                          "date":  "2026-07-21",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.9/Launcher-0.1.9-win64.zip",
+                                          "sha256":  "0b7227d043c3cdff18adb4a0ba3a922984184656272d0e90299c5635424ec5e5",
+                                          "sizeBytes":  173667,
+                                          "notes":  "Launcher 支持遥测上报与意见反馈入口，配合 Builder v0.1.9 使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.8",
+                                          "date":  "2026-07-21",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.8/Launcher-0.1.8-win64.zip",
+                                          "sha256":  "a25d64a48cb3f8f597d092f248bec69ebff7d66ef65d6298eedb803e9426a72f",
+                                          "sizeBytes":  149380,
+                                          "notes":  "Launcher 模板包更新，配合 Builder v0.1.8 使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.7",
+                                          "date":  "2026-07-21",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.7/Launcher-0.1.7-win64.zip",
+                                          "sha256":  "914b9971198027832fad356b93880f1b76c652cc16868b2e7f66bc32a5aafca9",
+                                          "sizeBytes":  149381,
+                                          "notes":  "Launcher 模板包更新，配合 Builder v0.1.7 使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.6",
+                                          "date":  "2026-07-21",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.6/Launcher-0.1.6-win64.zip",
+                                          "sha256":  "d635c7aab07c00fff2a2da43d3d41155a2aec32b3922cdf0a4834ec72b7639c2",
+                                          "sizeBytes":  0,
+                                          "notes":  "Launcher 模板包更新，配合 Builder v0.1.6 使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.5",
+                                          "date":  "2026-07-21",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.5/Launcher-0.1.5-win64.zip",
+                                          "sha256":  "67132d31ca7f16ae2493c9b457641d60ada426939355dc0a78ac88f3e65fac3d",
+                                          "sizeBytes":  149379,
+                                          "notes":  "Launcher 支持 --autostart 自启动管理，配合 Builder v0.1.5 使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.4",
+                                          "date":  "2026-07-21",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.4/Launcher-0.1.4-win64.zip",
+                                          "sha256":  "6d282e088a2c94a0c6ddf799e56458218e781e5470007cf23824633689ba56c9",
+                                          "sizeBytes":  140204,
+                                          "notes":  "Launcher 模板包更新，配合 Builder v0.1.4 使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.3",
+                                          "date":  "2026-07-21",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.3/Launcher-0.1.3-win64.zip",
+                                          "sha256":  "38096dd11e622a0d0dccb343a71a2e3efe49a514e64f0240e6e2922f53423827",
+                                          "sizeBytes":  0,
+                                          "notes":  "Launcher 模板包更新，配合 Builder v0.1.3 使用。"
+                                      },
+                                      {
+                                          "version":  "0.1.2",
+                                          "date":  "2026-07-21",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.2/Launcher-0.1.2-win64.zip",
+                                          "sha256":  "ff9c661f2c386338ab3ee28ad978fb0da392a1a47291713bac6d3a47b5e77dfa",
+                                          "sizeBytes":  0,
+                                          "notes":  "Launcher 同步嵌入程序图标，重新导出组合包时一键启动.exe 可显示图标。"
+                                      },
+                                      {
+                                          "version":  "0.1.1",
+                                          "date":  "2026-07-21",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.1/Launcher-0.1.1-win64.zip",
+                                          "sha256":  "b806f76fab4b4b7febc662953703847904106fe9b9f02e2a69491bea93fb51d4",
+                                          "sizeBytes":  0,
+                                          "notes":  "支持 manifest builtin DLL LoadLibrary 与后置 EXE 启动。"
+                                      }
+                                  ]
+                 }
 }
