@@ -1,10 +1,18 @@
 {
     "formatVersion":  1,
     "builder":  {
-                    "latest":  "0.1.27",
+                    "latest":  "0.1.28",
                     "minSupported":  "0.1.0",
                     "channel":  "stable",
                     "releases":  [
+                                     {
+                                         "version":  "0.1.28",
+                                         "date":  "2026-07-23",
+                                         "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.28/SoftwareMergerBuilder-0.1.28-win64.zip",
+                                         "sha256":  "d7505bec016c25115e1062932053ef6f6bc56b2981606413e2393ac282cc7e55",
+                                         "sizeBytes":  30799018,
+                                         "notes":  "添加了新功能，并修复了已知 BUG。"
+                                     },
                                      {
                                          "version":  "0.1.27",
                                          "date":  "2026-07-23",
@@ -208,10 +216,18 @@
                                  ]
                 },
     "launcher":  {
-                     "latest":  "0.1.27",
+                     "latest":  "0.1.28",
                      "minSupported":  "0.1.0",
                      "channel":  "stable",
                      "releases":  [
+                                      {
+                                          "version":  "0.1.28",
+                                          "date":  "2026-07-23",
+                                          "url":  "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.28/Launcher-0.1.28-win64.zip",
+                                          "sha256":  "abbbda5178b2e64c46a73f31b60c7d9589b70de69e18851d8daacbfbdf60810b",
+                                          "sizeBytes":  818956,
+                                          "notes":  "添加了新功能，并修复了已知 BUG。"
+                                      },
                                       {
                                           "version":  "0.1.27",
                                           "date":  "2026-07-23",
