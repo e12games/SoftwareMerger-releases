@@ -1,10 +1,18 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.32",
+    "latest": "0.1.33",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.33",
+        "date": "2026-07-30",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.33/SoftwareMergerBuilder-0.1.33-win64.zip",
+        "sha256": "dbdbeff59e93860563e34d8aca15fbc93ad14e788067135cc6ec0dcedc66862b",
+        "sizeBytes": 31709931,
+        "notes": "添加了新功能，并修复已知 BUG。"
+      },
       {
         "version": "0.1.32",
         "date": "2026-07-24",
@@ -232,10 +240,18 @@
     ]
   },
   "launcher": {
-    "latest": "0.1.32",
+    "latest": "0.1.33",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
+      {
+        "version": "0.1.33",
+        "date": "2026-07-30",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.33/Launcher-0.1.33-win64.zip",
+        "sha256": "0a5f1584fb572d69af2431ed30134354a9e772a62ca3615c8cbd3b846075b9a7",
+        "sizeBytes": 97693,
+        "notes": "添加了新功能，并修复已知 BUG。"
+      },
       {
         "version": "0.1.32",
         "date": "2026-07-24",
