@@ -1,30 +1,30 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.43",
+    "latest": "0.1.44",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.43",
-        "date": "2026-08-01",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.43/SoftwareMergerBuilder-0.1.43-win64.zip",
-        "sha256": "caea7c5510335564412b9bb2236464ac6dbf12983712a363562bbb49550d2b71",
-        "sizeBytes": 33062739,
+        "version": "0.1.44",
+        "date": "2026-08-06",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.44/SoftwareMergerBuilder-0.1.44-win64.zip",
+        "sha256": "5f5eaad84c33150370e7f526e713446808bc1e4a84bfda244e80c42dfb28df8e",
+        "sizeBytes": 33169295,
         "notes": "添加了新功能，并修复已知BUG"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.43",
+    "latest": "0.1.44",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.43",
-        "date": "2026-08-01",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.43/Launcher-0.1.43-win64.zip",
-        "sha256": "34c7bcb62d4d0272670182ef5af1bbda8d4a8c2c7bbe360622ca339cc5e6dc3e",
+        "version": "0.1.44",
+        "date": "2026-08-06",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.44/Launcher-0.1.44-win64.zip",
+        "sha256": "fc4a5c66a63cd73b19002fd0bf779b0bcdb4dc4f06ac87219cde9f75e92789a8",
         "sizeBytes": 104644,
         "notes": "添加了新功能，并修复已知BUG"
       }
