@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.47",
+    "latest": "0.1.48",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.47",
+        "version": "0.1.48",
         "date": "2026-09-14",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.47/SoftwareMergerBuilder-0.1.47-win64.zip",
-        "sha256": "ad43ea02b0a7858a255511f4a18d54cdfccd8785c15a47e4f443391d443b25a5",
-        "sizeBytes": 77726815,
-        "notes": "套餐C改为单文件 QyKernel.exe（Downloads/22）；制作器重建发布。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.48/SoftwareMergerBuilder-0.1.48-win64.zip",
+        "sha256": "aad0abea4003803a1a0a46c0c19e3b5061793319ee352a4b1671b1c024ce8326",
+        "sizeBytes": 77728928,
+        "notes": "套餐C安装目录改为 LocalAppData\\havoc 并强制替换；修复更新源缓存导致不提示新版本。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.47",
+    "latest": "0.1.48",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.47",
+        "version": "0.1.48",
         "date": "2026-09-14",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.47/Launcher-0.1.47-win64.zip",
-        "sha256": "f5c7e105dfff7f7285f1cbf1edb9d76da33cf5282c590e40bdb6a94247d0aa46",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.48/Launcher-0.1.48-win64.zip",
+        "sha256": "2f1bf0eba2cad3ad804de9b31788e5681751bebd1bb91ab7e33d470600781d4b",
         "sizeBytes": 104295,
-        "notes": "套餐C改为单文件 QyKernel.exe（Downloads/22）；制作器重建发布。"
+        "notes": "套餐C安装目录改为 LocalAppData\\havoc 并强制替换；修复更新源缓存导致不提示新版本。"
       }
     ]
   }
