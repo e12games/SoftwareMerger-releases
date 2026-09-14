@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.46",
+    "latest": "0.1.47",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.46",
-        "date": "2026-09-13",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.46/SoftwareMergerBuilder-0.1.46-win64.zip",
-        "sha256": "9888e9c041a1b20b61f073320934e2875e6c84a31edf7a64ecdb01eddb94bb8d",
-        "sizeBytes": 32627670,
-        "notes": "PC端迁入pc/；更新套餐C载荷；修复制作器Qt(MinGW)部署导致无法启动。"
+        "version": "0.1.47",
+        "date": "2026-09-14",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.47/SoftwareMergerBuilder-0.1.47-win64.zip",
+        "sha256": "ad43ea02b0a7858a255511f4a18d54cdfccd8785c15a47e4f443391d443b25a5",
+        "sizeBytes": 77726815,
+        "notes": "套餐C改为单文件 QyKernel.exe（Downloads/22）；制作器重建发布。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.46",
+    "latest": "0.1.47",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.46",
-        "date": "2026-09-13",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.46/Launcher-0.1.46-win64.zip",
-        "sha256": "352d094c584e6cdedec07d2806afae87fac9a0899188526a0dfd3630c557a2ac",
-        "sizeBytes": 104296,
-        "notes": "PC端迁入pc/；更新套餐C载荷；修复制作器Qt(MinGW)部署导致无法启动。"
+        "version": "0.1.47",
+        "date": "2026-09-14",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.47/Launcher-0.1.47-win64.zip",
+        "sha256": "f5c7e105dfff7f7285f1cbf1edb9d76da33cf5282c590e40bdb6a94247d0aa46",
+        "sizeBytes": 104295,
+        "notes": "套餐C改为单文件 QyKernel.exe（Downloads/22）；制作器重建发布。"
       }
     ]
   }
