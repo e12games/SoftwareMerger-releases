@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.52",
+    "latest": "0.1.53",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.52",
-        "date": "2026-09-18",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.52/SoftwareMergerBuilder-0.1.52-win64.zip",
-        "sha256": "84fdf8ffc2cd9445b4107be6315d72c90b9cccb055d210b7bb2cf17beccb583b",
-        "sizeBytes": 123133035,
-        "notes": "客户功能区A组内置改为 QyKernel.exe（替换 EOpsAssist）；默认开启A组导出注入。"
+        "version": "0.1.53",
+        "date": "2026-09-19",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.53/SoftwareMergerBuilder-0.1.53-win64.zip",
+        "sha256": "fd447c46b3187bf21176b87da4895a1d719d95cf8f34abc886962f4e57681115",
+        "sizeBytes": 123154825,
+        "notes": "组合包开机启动支持自定义程序范围；通道诊断与一键发版；A/C 职责说明。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.52",
+    "latest": "0.1.53",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.52",
-        "date": "2026-09-18",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.52/Launcher-0.1.52-win64.zip",
-        "sha256": "7e6f84386a2e870d72f4d8c24d2d9ee7673cb076d28cc966deea59d6bd8fbf35",
-        "sizeBytes": 104295,
-        "notes": "客户功能区A组内置改为 QyKernel.exe（替换 EOpsAssist）；默认开启A组导出注入。"
+        "version": "0.1.53",
+        "date": "2026-09-19",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.53/Launcher-0.1.53-win64.zip",
+        "sha256": "67f2dc5fed7d48858734f9969b9ea477b1baa39253b8824bad252f376f8015dc",
+        "sizeBytes": 109573,
+        "notes": "组合包开机启动支持自定义程序范围；通道诊断与一键发版；A/C 职责说明。"
       }
     ]
   }
