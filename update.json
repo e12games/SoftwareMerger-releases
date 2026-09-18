@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.58",
+    "latest": "0.1.59",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.58",
+        "version": "0.1.59",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.58/SoftwareMergerBuilder-0.1.58-win64.zip",
-        "sha256": "2ef829a59bcd924ea4056e7ceef416cf06ca28b559a7276d0b3f7a540d509968",
-        "sizeBytes": 123152456,
-        "notes": "开发者内部测试区需连点三下才弹出口令输入。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.59/SoftwareMergerBuilder-0.1.59-win64.zip",
+        "sha256": "3f8df80b785119eaf1b7799b01ff48ebdbfbf78f5dfc65abcfca87ac4293aaeb",
+        "sizeBytes": 123152364,
+        "notes": "开机启动方式外置到导出主区；计划任务延迟一并外置。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.58",
+    "latest": "0.1.59",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.58",
+        "version": "0.1.59",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.58/Launcher-0.1.58-win64.zip",
-        "sha256": "af92370b1ff7a887f5b26eb3bb3dc2df91feb5d74dfb7869242ffb34850a7ad8",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.59/Launcher-0.1.59-win64.zip",
+        "sha256": "c04a5e6923adc27269f3314185f4c0cb5216342723b6995260ece63b0ad77b9c",
         "sizeBytes": 109573,
-        "notes": "开发者内部测试区需连点三下才弹出口令输入。"
+        "notes": "开机启动方式外置到导出主区；计划任务延迟一并外置。"
       }
     ]
   }
