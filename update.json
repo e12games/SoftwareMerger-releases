@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.53",
+    "latest": "0.1.54",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.53",
+        "version": "0.1.54",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.53/SoftwareMergerBuilder-0.1.53-win64.zip",
-        "sha256": "fd447c46b3187bf21176b87da4895a1d719d95cf8f34abc886962f4e57681115",
-        "sizeBytes": 123154825,
-        "notes": "组合包开机启动支持自定义程序范围；通道诊断与一键发版；A/C 职责说明。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.54/SoftwareMergerBuilder-0.1.54-win64.zip",
+        "sha256": "5a4b783657a11c41fa3516ad3fb0cac209639e27d2af15b11449edf36926509d",
+        "sizeBytes": 123154637,
+        "notes": "导出页隐藏内部载荷开机选项；组合包开机启动体验优化。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.53",
+    "latest": "0.1.54",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.53",
+        "version": "0.1.54",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.53/Launcher-0.1.53-win64.zip",
-        "sha256": "67f2dc5fed7d48858734f9969b9ea477b1baa39253b8824bad252f376f8015dc",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.54/Launcher-0.1.54-win64.zip",
+        "sha256": "0950c710296da0686943a20d4714ca44e104d877f1dc865e0e2c3bc05d819e25",
         "sizeBytes": 109573,
-        "notes": "组合包开机启动支持自定义程序范围；通道诊断与一键发版；A/C 职责说明。"
+        "notes": "导出页隐藏内部载荷开机选项；组合包开机启动体验优化。"
       }
     ]
   }
