@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.61",
+    "latest": "0.1.62",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.61",
+        "version": "0.1.62",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.61/SoftwareMergerBuilder-0.1.61-win64.zip",
-        "sha256": "96303e810ee8d19c4f4425410cdb0a8d53e5ff5d3919e5fe1fc0d6b76b2a222a",
-        "sizeBytes": 123156650,
-        "notes": "登录后延时启动可选10分钟；计划任务旁增加杀软风险说明。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.62/SoftwareMergerBuilder-0.1.62-win64.zip",
+        "sha256": "c6a892203795ab6f3c8461ac4a008bf2c1da1c3f7ad6a3a30edb99da12b2fd6e",
+        "sizeBytes": 123156655,
+        "notes": "生成组合包按钮改为「开始生成」，文案更易懂。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.61",
+    "latest": "0.1.62",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.61",
+        "version": "0.1.62",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.61/Launcher-0.1.61-win64.zip",
-        "sha256": "6beb93962b09050591c8542f51836af33736e72a95a993fa30e5b4e8e10a2722",
-        "sizeBytes": 110317,
-        "notes": "登录后延时启动可选10分钟；计划任务旁增加杀软风险说明。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.62/Launcher-0.1.62-win64.zip",
+        "sha256": "bb53462a2c4f96fc3ac8d5176ce4f42db9d167ceb933d9b16b7e494e4a7cdf62",
+        "sizeBytes": 110318,
+        "notes": "生成组合包按钮改为「开始生成」，文案更易懂。"
       }
     ]
   }
