@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.63",
+    "latest": "0.1.64",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.63",
+        "version": "0.1.64",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.63/SoftwareMergerBuilder-0.1.63-win64.zip",
-        "sha256": "55d13e9f5c42cbd4316a5b3166a5ee757f4fd42ff0730ac0f00ec12e838a9f06",
-        "sizeBytes": 123163188,
-        "notes": "自动启动三选：注册表、启动文件夹、计划任务；各附说明。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.64/SoftwareMergerBuilder-0.1.64-win64.zip",
+        "sha256": "f7640f9e966709dc7fc7f99181f171d491ef4b0512474d67728ef471be78c6f4",
+        "sizeBytes": 123163248,
+        "notes": "主界面更简洁；双击列表某一行可改参数。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.63",
+    "latest": "0.1.64",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.63",
+        "version": "0.1.64",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.63/Launcher-0.1.63-win64.zip",
-        "sha256": "03cd3679af2ad7b6424b034aed615edb6e6d16c75626fe0cbddfa13250683cef",
-        "sizeBytes": 113364,
-        "notes": "自动启动三选：注册表、启动文件夹、计划任务；各附说明。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.64/Launcher-0.1.64-win64.zip",
+        "sha256": "58e97982751126d555c29083881a5bdc9ef3e05aec090a8680ef3b7ce059c7a0",
+        "sizeBytes": 113363,
+        "notes": "主界面更简洁；双击列表某一行可改参数。"
       }
     ]
   }
