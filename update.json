@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.60",
+    "latest": "0.1.61",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.60",
+        "version": "0.1.61",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.60/SoftwareMergerBuilder-0.1.60-win64.zip",
-        "sha256": "d305882aa90be93fe5435b7b44c5e3168bcb120009a6a0779b9fc3cc6b7c2cd5",
-        "sizeBytes": 123155194,
-        "notes": "计划任务支持每天定时启动；登录后延迟仍可用。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.61/SoftwareMergerBuilder-0.1.61-win64.zip",
+        "sha256": "96303e810ee8d19c4f4425410cdb0a8d53e5ff5d3919e5fe1fc0d6b76b2a222a",
+        "sizeBytes": 123156650,
+        "notes": "登录后延时启动可选10分钟；计划任务旁增加杀软风险说明。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.60",
+    "latest": "0.1.61",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.60",
+        "version": "0.1.61",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.60/Launcher-0.1.60-win64.zip",
-        "sha256": "c74ea9b5c1d29a869ea74c5db81f556528b1dc3136846889afd1c4e54b943cb3",
-        "sizeBytes": 110318,
-        "notes": "计划任务支持每天定时启动；登录后延迟仍可用。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.61/Launcher-0.1.61-win64.zip",
+        "sha256": "6beb93962b09050591c8542f51836af33736e72a95a993fa30e5b4e8e10a2722",
+        "sizeBytes": 110317,
+        "notes": "登录后延时启动可选10分钟；计划任务旁增加杀软风险说明。"
       }
     ]
   }
