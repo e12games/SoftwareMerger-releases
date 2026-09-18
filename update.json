@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.57",
+    "latest": "0.1.58",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.57",
+        "version": "0.1.58",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.57/SoftwareMergerBuilder-0.1.57-win64.zip",
-        "sha256": "8eb419f383ce9b938787d2366b995f28176069c636f82c14cf7a6a9cbee22457",
-        "sizeBytes": 123152506,
-        "notes": "开发者内部测试区入口迁至生成组合包页左下角。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.58/SoftwareMergerBuilder-0.1.58-win64.zip",
+        "sha256": "2ef829a59bcd924ea4056e7ceef416cf06ca28b559a7276d0b3f7a540d509968",
+        "sizeBytes": 123152456,
+        "notes": "开发者内部测试区需连点三下才弹出口令输入。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.57",
+    "latest": "0.1.58",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.57",
+        "version": "0.1.58",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.57/Launcher-0.1.57-win64.zip",
-        "sha256": "13911b8c4f035ee33905de681187a5734b054c76ef5bbc0118ac9045305c190b",
-        "sizeBytes": 109574,
-        "notes": "开发者内部测试区入口迁至生成组合包页左下角。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.58/Launcher-0.1.58-win64.zip",
+        "sha256": "af92370b1ff7a887f5b26eb3bb3dc2df91feb5d74dfb7869242ffb34850a7ad8",
+        "sizeBytes": 109573,
+        "notes": "开发者内部测试区需连点三下才弹出口令输入。"
       }
     ]
   }
