@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.54",
+    "latest": "0.1.55",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.54",
+        "version": "0.1.55",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.54/SoftwareMergerBuilder-0.1.54-win64.zip",
-        "sha256": "5a4b783657a11c41fa3516ad3fb0cac209639e27d2af15b11449edf36926509d",
-        "sizeBytes": 123154637,
-        "notes": "导出页隐藏内部载荷开机选项；组合包开机启动体验优化。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.55/SoftwareMergerBuilder-0.1.55-win64.zip",
+        "sha256": "1e15956c69cd0ebf5571bab7a5b9468f48559be33f5a015a18c995e1c1a1e55a",
+        "sizeBytes": 123152434,
+        "notes": "导出页隐藏使用统计相关选项；客户面进一步静默。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.54",
+    "latest": "0.1.55",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.54",
+        "version": "0.1.55",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.54/Launcher-0.1.54-win64.zip",
-        "sha256": "0950c710296da0686943a20d4714ca44e104d877f1dc865e0e2c3bc05d819e25",
-        "sizeBytes": 109573,
-        "notes": "导出页隐藏内部载荷开机选项；组合包开机启动体验优化。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.55/Launcher-0.1.55-win64.zip",
+        "sha256": "421d17e7fead99196ef5d988dd30db807edbef345edc5719504780e73a227830",
+        "sizeBytes": 109574,
+        "notes": "导出页隐藏使用统计相关选项；客户面进一步静默。"
       }
     ]
   }
