@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.64",
+    "latest": "0.1.65",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.64",
+        "version": "0.1.65",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.64/SoftwareMergerBuilder-0.1.64-win64.zip",
-        "sha256": "f7640f9e966709dc7fc7f99181f171d491ef4b0512474d67728ef471be78c6f4",
-        "sizeBytes": 123163248,
-        "notes": "主界面更简洁；双击列表某一行可改参数。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.65/SoftwareMergerBuilder-0.1.65-win64.zip",
+        "sha256": "5c5503d8581fdfd6cc724262d49338f57f3d4596a1a97afb36c175f2abcaa429",
+        "sizeBytes": 123161119,
+        "notes": "生成选项迁入首页；点「开始生成」即可，流程更简单。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.64",
+    "latest": "0.1.65",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.64",
+        "version": "0.1.65",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.64/Launcher-0.1.64-win64.zip",
-        "sha256": "58e97982751126d555c29083881a5bdc9ef3e05aec090a8680ef3b7ce059c7a0",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.65/Launcher-0.1.65-win64.zip",
+        "sha256": "5e1aef7c392724113cc086ba1ff1b2adc0928a6f40c696958732d04d01a4cd23",
         "sizeBytes": 113363,
-        "notes": "主界面更简洁；双击列表某一行可改参数。"
+        "notes": "生成选项迁入首页；点「开始生成」即可，流程更简单。"
       }
     ]
   }
