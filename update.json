@@ -11,7 +11,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.69/SoftwareMergerBuilder-0.1.69-win64.zip",
         "sha256": "65386b586b81de6c14fd3d7b1681593eeca97a68a2c9a0dcccb4d8125744a41d",
         "sizeBytes": 75904504,
-        "notes": "Export success: open folder / copy path; clearer recipient and AV tips."
+        "notes": "底栏可直接开始生成；成功后可打开文件夹/复制路径，并提示对方用法与杀软处理。"
       }
     ]
   },
@@ -26,7 +26,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.69/Launcher-0.1.69-win64.zip",
         "sha256": "d29766346755d40b50c13d9e1e35fa87887193783fd3e5f6c9b500f3a50175e6",
         "sizeBytes": 113364,
-        "notes": "Export success: open folder / copy path; clearer recipient and AV tips."
+        "notes": "底栏可直接开始生成；成功后可打开文件夹/复制路径，并提示对方用法与杀软处理。"
       }
     ]
   }
