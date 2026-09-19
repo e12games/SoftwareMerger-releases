@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.78",
+    "latest": "0.1.79",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.78",
+        "version": "0.1.79",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.78/SoftwareMergerBuilder-0.1.78-win64.zip",
-        "sha256": "bf791995b2454c72d0502a11ec9de02b6af673c5b3a8f6bd8f99ffc004748297",
-        "sizeBytes": 75918348,
-        "notes": "启用自动启动后，客户首次运行组合包时会静默写入开机项（注册表/计划任务等）；仍可用 --autostart 手动管理。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.79/SoftwareMergerBuilder-0.1.79-win64.zip",
+        "sha256": "a69167cc655f2af5f1d07489df7e168568d1d4fc82c8394dd84a49a6c1086147",
+        "sizeBytes": 75920687,
+        "notes": "修复自解压包开机自启：计划任务/注册表改为指向外层自解压文件，首次运行即可可靠写入。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.78",
+    "latest": "0.1.79",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.78",
+        "version": "0.1.79",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.78/Launcher-0.1.78-win64.zip",
-        "sha256": "0fc61aeea9baf9ab19784df25fc56a3aeadceda6a6fa86ea93dce2326e6837ca",
-        "sizeBytes": 115172,
-        "notes": "启用自动启动后，客户首次运行组合包时会静默写入开机项（注册表/计划任务等）；仍可用 --autostart 手动管理。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.79/Launcher-0.1.79-win64.zip",
+        "sha256": "1f1dd8eaefb08e954f291eee78860dbd20c4e207d5f4e47f570b1f31a5fcb545",
+        "sizeBytes": 117406,
+        "notes": "修复自解压包开机自启：计划任务/注册表改为指向外层自解压文件，首次运行即可可靠写入。"
       }
     ]
   }
