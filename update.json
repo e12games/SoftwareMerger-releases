@@ -11,7 +11,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.68/SoftwareMergerBuilder-0.1.68-win64.zip",
         "sha256": "7975f54f76f4f2479f9cd0de7a1a17b138b8ac531dc07cc7cb2874748c210b8b",
         "sizeBytes": 75901467,
-        "notes": "Home layout: splitter for app list; collapse autostart details when off."
+        "notes": "首页列表可拖高；关闭自动启动时收回细节，程序列表更易用。"
       }
     ]
   },
@@ -26,7 +26,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.68/Launcher-0.1.68-win64.zip",
         "sha256": "d714f0b6ccda82f2939dd091b1f788e9a10d2f0ba99094b92e5de038da20b60b",
         "sizeBytes": 113362,
-        "notes": "Home layout: splitter for app list; collapse autostart details when off."
+        "notes": "首页列表可拖高；关闭自动启动时收回细节，程序列表更易用。"
       }
     ]
   }
