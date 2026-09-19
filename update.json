@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.75",
+    "latest": "0.1.76",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.75",
+        "version": "0.1.76",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.75/SoftwareMergerBuilder-0.1.75-win64.zip",
-        "sha256": "26af64200b34ce2d286ff29bdc53b320c8d8152449d8ca59275c6144e98475a2",
-        "sizeBytes": 75910520,
-        "notes": "发版/更新加固：禁止同版本覆盖；校验失败可清缓存重试。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.76/SoftwareMergerBuilder-0.1.76-win64.zip",
+        "sha256": "c3e13c40cc0fbb9ad6f6b4a64021d66fe7387bb60f5f332da1379843f47ae5e6",
+        "sizeBytes": 75916497,
+        "notes": "新增「从模板开始」：双程序 / 三程序 / 单程序，新人更快上手。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.75",
+    "latest": "0.1.76",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.75",
+        "version": "0.1.76",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.75/Launcher-0.1.75-win64.zip",
-        "sha256": "58bc7eb9430e47eb9a28ddd4d656b4b1876ef807aa46290833567c63d28e03a5",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.76/Launcher-0.1.76-win64.zip",
+        "sha256": "e24ab6c851a869688b5139474df4055ec892ea13c00edebc7dd8c9819e64997d",
         "sizeBytes": 113363,
-        "notes": "发版/更新加固：禁止同版本覆盖；校验失败可清缓存重试。"
+        "notes": "新增「从模板开始」：双程序 / 三程序 / 单程序，新人更快上手。"
       }
     ]
   }
