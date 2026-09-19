@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.67",
+    "latest": "0.1.68",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.67",
+        "version": "0.1.68",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.67/SoftwareMergerBuilder-0.1.67-win64.zip",
-        "sha256": "12b3d2b4e22a800bce9cebdf5237b5804a933d9010bd8495898dca0ca7d59f92",
-        "sizeBytes": 75899975,
-        "notes": "「保存成什么」：自解压置顶并推荐，更适合普通用户下载分发。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.68/SoftwareMergerBuilder-0.1.68-win64.zip",
+        "sha256": "7975f54f76f4f2479f9cd0de7a1a17b138b8ac531dc07cc7cb2874748c210b8b",
+        "sizeBytes": 75901467,
+        "notes": "Home layout: splitter for app list; collapse autostart details when off."
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.67",
+    "latest": "0.1.68",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.67",
+        "version": "0.1.68",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.67/Launcher-0.1.67-win64.zip",
-        "sha256": "2a70a40ee663bfce81da826afd94511c2622b69a96e162dde845366f40dbf302",
-        "sizeBytes": 113364,
-        "notes": "「保存成什么」：自解压置顶并推荐，更适合普通用户下载分发。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.68/Launcher-0.1.68-win64.zip",
+        "sha256": "d714f0b6ccda82f2939dd091b1f788e9a10d2f0ba99094b92e5de038da20b60b",
+        "sizeBytes": 113362,
+        "notes": "Home layout: splitter for app list; collapse autostart details when off."
       }
     ]
   }
