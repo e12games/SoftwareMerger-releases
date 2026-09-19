@@ -9,8 +9,8 @@
         "version": "0.1.73",
         "date": "2026-09-19",
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.73/SoftwareMergerBuilder-0.1.73-win64.zip",
-        "sha256": "c09132c60a30c6939398d22f4f0d657135584ffe8e101a0f5151ac6534e86a8a",
-        "sizeBytes": 75910046,
+        "sha256": "7322652d61318fa00cefd86d599c9f3f4d8aa7aab8604a0c9fcc55d9211cfbd4",
+        "sizeBytes": 75910031,
         "notes": "Signing options moved to dialog; home page stays short."
       }
     ]
