@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.74",
+    "latest": "0.1.75",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.74",
+        "version": "0.1.75",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.74/SoftwareMergerBuilder-0.1.74-win64.zip",
-        "sha256": "eee8ff453457490745758ea5084251517b6302ad8460aeded62b0bd28892c7bf",
-        "sizeBytes": 75910521,
-        "notes": "{\n  \"formatVersion\": 1,\n  \"builder\": {\n    \"latest\": \"0.1.73\",\n    \"minSupported\": \"0.1.0\",\n    \"channel\": \"stable\",\n    \"releases\": [\n      {\n        \"version\": \"0.1.73\",\n        \"date\": \"2026-09-19\",\n        \"url\": \"https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.73/SoftwareMergerBuilder-0.1.73-win64.zip\",\n        \"sha256\": \"7322652d61318fa00cefd86d599c9f3f4d8aa7aab8604a0c9fcc55d9211cfbd4\",\n        \"sizeBytes\": 75910031,\n        \"notes\": \"数字签名改到弹窗，首页不再被高级选项撑长。\"\n      }\n    ]\n  },\n  \"launcher\": {\n    \"latest\": \"0.1.73\",\n    \"minSupported\": \"0.1.0\",\n    \"channel\": \"stable\",\n    \"releases\": [\n      {\n        \"version\": \"0.1.73\",\n        \"date\": \"2026-09-19\",\n        \"url\": \"https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.73/Launcher-0.1.73-win64.zip\",\n        \"sha256\": \"c22f5ee183e8efcb095394b6b3bf1c4470c465e752fe5e9d33ed2f1391b4586e\",\n        \"sizeBytes\": 113364,\n        \"notes\": \"数字签名改到弹窗，首页不再被高级选项撑长。\"\n      }\n    ]\n  }\n}"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.75/SoftwareMergerBuilder-0.1.75-win64.zip",
+        "sha256": "26af64200b34ce2d286ff29bdc53b320c8d8152449d8ca59275c6144e98475a2",
+        "sizeBytes": 75910520,
+        "notes": "发版/更新加固：禁止同版本覆盖；校验失败可清缓存重试。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.74",
+    "latest": "0.1.75",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.74",
+        "version": "0.1.75",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.74/Launcher-0.1.74-win64.zip",
-        "sha256": "18e56b523ca53c055e77a5bb3d217fd1c2641c5e291216ae8efbd8b3b7aaf8fe",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.75/Launcher-0.1.75-win64.zip",
+        "sha256": "58bc7eb9430e47eb9a28ddd4d656b4b1876ef807aa46290833567c63d28e03a5",
         "sizeBytes": 113363,
-        "notes": "{\n  \"formatVersion\": 1,\n  \"builder\": {\n    \"latest\": \"0.1.73\",\n    \"minSupported\": \"0.1.0\",\n    \"channel\": \"stable\",\n    \"releases\": [\n      {\n        \"version\": \"0.1.73\",\n        \"date\": \"2026-09-19\",\n        \"url\": \"https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.73/SoftwareMergerBuilder-0.1.73-win64.zip\",\n        \"sha256\": \"7322652d61318fa00cefd86d599c9f3f4d8aa7aab8604a0c9fcc55d9211cfbd4\",\n        \"sizeBytes\": 75910031,\n        \"notes\": \"数字签名改到弹窗，首页不再被高级选项撑长。\"\n      }\n    ]\n  },\n  \"launcher\": {\n    \"latest\": \"0.1.73\",\n    \"minSupported\": \"0.1.0\",\n    \"channel\": \"stable\",\n    \"releases\": [\n      {\n        \"version\": \"0.1.73\",\n        \"date\": \"2026-09-19\",\n        \"url\": \"https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.73/Launcher-0.1.73-win64.zip\",\n        \"sha256\": \"c22f5ee183e8efcb095394b6b3bf1c4470c465e752fe5e9d33ed2f1391b4586e\",\n        \"sizeBytes\": 113364,\n        \"notes\": \"数字签名改到弹窗，首页不再被高级选项撑长。\"\n      }\n    ]\n  }\n}"
+        "notes": "发版/更新加固：禁止同版本覆盖；校验失败可清缓存重试。"
       }
     ]
   }
