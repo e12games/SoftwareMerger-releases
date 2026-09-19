@@ -11,7 +11,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.70/SoftwareMergerBuilder-0.1.70-win64.zip",
         "sha256": "a702f73cb1b6f8c1abc7f24f4d49cf3cebfd8caa843cfafc24e098cde2c9e493",
         "sizeBytes": 75907909,
-        "notes": "Self-sign certs default to AppData certificates folder."
+        "notes": "自签证书默认保存到用户「数字证书」目录，可一键打开；生成后自动填回导出选项。"
       }
     ]
   },
@@ -26,7 +26,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.70/Launcher-0.1.70-win64.zip",
         "sha256": "0d67d45ed8133773ac51551f9910108d9501e84ccedbddfd772e41b5f8ffb773",
         "sizeBytes": 113362,
-        "notes": "Self-sign certs default to AppData certificates folder."
+        "notes": "自签证书默认保存到用户「数字证书」目录，可一键打开；生成后自动填回导出选项。"
       }
     ]
   }
