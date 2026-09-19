@@ -11,7 +11,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.73/SoftwareMergerBuilder-0.1.73-win64.zip",
         "sha256": "7322652d61318fa00cefd86d599c9f3f4d8aa7aab8604a0c9fcc55d9211cfbd4",
         "sizeBytes": 75910031,
-        "notes": "Signing options moved to dialog; home page stays short."
+        "notes": "数字签名改到弹窗，首页不再被高级选项撑长。"
       }
     ]
   },
@@ -26,7 +26,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.73/Launcher-0.1.73-win64.zip",
         "sha256": "c22f5ee183e8efcb095394b6b3bf1c4470c465e752fe5e9d33ed2f1391b4586e",
         "sizeBytes": 113364,
-        "notes": "Signing options moved to dialog; home page stays short."
+        "notes": "数字签名改到弹窗，首页不再被高级选项撑长。"
       }
     ]
   }
