@@ -11,7 +11,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.72/SoftwareMergerBuilder-0.1.72-win64.zip",
         "sha256": "42df06bc68dc4a2386bcacd936710b25f33dd78dc4945b9699151e6bd76e704e",
         "sizeBytes": 75908319,
-        "notes": "Fix self-sign file lock: write temp .ps1 then close before PowerShell."
+        "notes": "修复自签证书被本进程占用临时脚本的问题。"
       }
     ]
   },
@@ -26,7 +26,7 @@
         "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.72/Launcher-0.1.72-win64.zip",
         "sha256": "a15d6c016c23f9f0e9cca0953d07cdf1252f73fbf9328ed5628a95b8a6d876d0",
         "sizeBytes": 113364,
-        "notes": "Fix self-sign file lock: write temp .ps1 then close before PowerShell."
+        "notes": "修复自签证书被本进程占用临时脚本的问题。"
       }
     ]
   }
