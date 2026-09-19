@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.71",
+    "latest": "0.1.72",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.71",
+        "version": "0.1.72",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.71/SoftwareMergerBuilder-0.1.71-win64.zip",
-        "sha256": "bce7ca4c6dbe4ef1c1b0ad5f1ceeec7dcdca4d881aea9eba88043ffcd7421cfe",
-        "sizeBytes": 75908060,
-        "notes": "修复自签证书生成失败（临时脚本补上 .ps1 扩展名）。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.72/SoftwareMergerBuilder-0.1.72-win64.zip",
+        "sha256": "42df06bc68dc4a2386bcacd936710b25f33dd78dc4945b9699151e6bd76e704e",
+        "sizeBytes": 75908319,
+        "notes": "Fix self-sign file lock: write temp .ps1 then close before PowerShell."
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.71",
+    "latest": "0.1.72",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.71",
+        "version": "0.1.72",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.71/Launcher-0.1.71-win64.zip",
-        "sha256": "1c6f24c6ae8f2ecb51e1aeae62c366f11041b2826587a8fdf1dc832671bf0322",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.72/Launcher-0.1.72-win64.zip",
+        "sha256": "a15d6c016c23f9f0e9cca0953d07cdf1252f73fbf9328ed5628a95b8a6d876d0",
         "sizeBytes": 113364,
-        "notes": "修复自签证书生成失败（临时脚本补上 .ps1 扩展名）。"
+        "notes": "Fix self-sign file lock: write temp .ps1 then close before PowerShell."
       }
     ]
   }
