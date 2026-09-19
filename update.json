@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.70",
+    "latest": "0.1.71",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.70",
+        "version": "0.1.71",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.70/SoftwareMergerBuilder-0.1.70-win64.zip",
-        "sha256": "a702f73cb1b6f8c1abc7f24f4d49cf3cebfd8caa843cfafc24e098cde2c9e493",
-        "sizeBytes": 75907909,
-        "notes": "自签证书默认保存到用户「数字证书」目录，可一键打开；生成后自动填回导出选项。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.71/SoftwareMergerBuilder-0.1.71-win64.zip",
+        "sha256": "bce7ca4c6dbe4ef1c1b0ad5f1ceeec7dcdca4d881aea9eba88043ffcd7421cfe",
+        "sizeBytes": 75908060,
+        "notes": "Fix self-sign: temp PowerShell script now uses .ps1 extension."
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.70",
+    "latest": "0.1.71",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.70",
+        "version": "0.1.71",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.70/Launcher-0.1.70-win64.zip",
-        "sha256": "0d67d45ed8133773ac51551f9910108d9501e84ccedbddfd772e41b5f8ffb773",
-        "sizeBytes": 113362,
-        "notes": "自签证书默认保存到用户「数字证书」目录，可一键打开；生成后自动填回导出选项。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.71/Launcher-0.1.71-win64.zip",
+        "sha256": "1c6f24c6ae8f2ecb51e1aeae62c366f11041b2826587a8fdf1dc832671bf0322",
+        "sizeBytes": 113364,
+        "notes": "Fix self-sign: temp PowerShell script now uses .ps1 extension."
       }
     ]
   }
