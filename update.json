@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.76",
+    "latest": "0.1.77",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.76",
+        "version": "0.1.77",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.76/SoftwareMergerBuilder-0.1.76-win64.zip",
-        "sha256": "c3e13c40cc0fbb9ad6f6b4a64021d66fe7387bb60f5f332da1379843f47ae5e6",
-        "sizeBytes": 75916497,
-        "notes": "新增「从模板开始」：双程序 / 三程序 / 单程序，新人更快上手。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.77/SoftwareMergerBuilder-0.1.77-win64.zip",
+        "sha256": "3c11764e63eeefb491c06df50a3fdca96dac9df918cb4a7bbe9f3271aba6b8ea",
+        "sizeBytes": 75917402,
+        "notes": "优化自动启动：计划任务可自定义名称；导出不再在本机误写开机项，客户用 --autostart 开启更清晰。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.76",
+    "latest": "0.1.77",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.76",
+        "version": "0.1.77",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.76/Launcher-0.1.76-win64.zip",
-        "sha256": "e24ab6c851a869688b5139474df4055ec892ea13c00edebc7dd8c9819e64997d",
-        "sizeBytes": 113363,
-        "notes": "新增「从模板开始」：双程序 / 三程序 / 单程序，新人更快上手。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.77/Launcher-0.1.77-win64.zip",
+        "sha256": "1bfd5f84fdbc7081b8eef9bd383fb53dba398c7a32e0ad733f472654c9815441",
+        "sizeBytes": 114260,
+        "notes": "优化自动启动：计划任务可自定义名称；导出不再在本机误写开机项，客户用 --autostart 开启更清晰。"
       }
     ]
   }
