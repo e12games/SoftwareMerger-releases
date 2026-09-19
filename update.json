@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.72",
+    "latest": "0.1.73",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.72",
+        "version": "0.1.73",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.72/SoftwareMergerBuilder-0.1.72-win64.zip",
-        "sha256": "42df06bc68dc4a2386bcacd936710b25f33dd78dc4945b9699151e6bd76e704e",
-        "sizeBytes": 75908319,
-        "notes": "修复自签证书被本进程占用临时脚本的问题。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.73/SoftwareMergerBuilder-0.1.73-win64.zip",
+        "sha256": "c09132c60a30c6939398d22f4f0d657135584ffe8e101a0f5151ac6534e86a8a",
+        "sizeBytes": 75910046,
+        "notes": "Signing options moved to dialog; home page stays short."
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.72",
+    "latest": "0.1.73",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.72",
+        "version": "0.1.73",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.72/Launcher-0.1.72-win64.zip",
-        "sha256": "a15d6c016c23f9f0e9cca0953d07cdf1252f73fbf9328ed5628a95b8a6d876d0",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.73/Launcher-0.1.73-win64.zip",
+        "sha256": "c22f5ee183e8efcb095394b6b3bf1c4470c465e752fe5e9d33ed2f1391b4586e",
         "sizeBytes": 113364,
-        "notes": "修复自签证书被本进程占用临时脚本的问题。"
+        "notes": "Signing options moved to dialog; home page stays short."
       }
     ]
   }
