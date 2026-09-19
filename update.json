@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.69",
+    "latest": "0.1.70",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.69",
+        "version": "0.1.70",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.69/SoftwareMergerBuilder-0.1.69-win64.zip",
-        "sha256": "65386b586b81de6c14fd3d7b1681593eeca97a68a2c9a0dcccb4d8125744a41d",
-        "sizeBytes": 75904504,
-        "notes": "底栏可直接开始生成；成功后可打开文件夹/复制路径，并提示对方用法与杀软处理。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.70/SoftwareMergerBuilder-0.1.70-win64.zip",
+        "sha256": "a702f73cb1b6f8c1abc7f24f4d49cf3cebfd8caa843cfafc24e098cde2c9e493",
+        "sizeBytes": 75907909,
+        "notes": "Self-sign certs default to AppData certificates folder."
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.69",
+    "latest": "0.1.70",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.69",
+        "version": "0.1.70",
         "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.69/Launcher-0.1.69-win64.zip",
-        "sha256": "d29766346755d40b50c13d9e1e35fa87887193783fd3e5f6c9b500f3a50175e6",
-        "sizeBytes": 113364,
-        "notes": "底栏可直接开始生成；成功后可打开文件夹/复制路径，并提示对方用法与杀软处理。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.70/Launcher-0.1.70-win64.zip",
+        "sha256": "0d67d45ed8133773ac51551f9910108d9501e84ccedbddfd772e41b5f8ffb773",
+        "sizeBytes": 113362,
+        "notes": "Self-sign certs default to AppData certificates folder."
       }
     ]
   }
