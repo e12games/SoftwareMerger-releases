@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.89",
+    "latest": "0.1.90",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.89",
+        "version": "0.1.90",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.89/SoftwareMergerBuilder-0.1.89-win64.zip",
-        "sha256": "5543c9363e325efbd0b4c12536f81759f8e735afb853f5cc5b3b9f7a834efa6f",
-        "sizeBytes": 33413091,
-        "notes": "插件C 固化为内置核心组件；界面清晰区分内置与扩展；稳定性提升。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.90/SoftwareMergerBuilder-0.1.90-win64.zip",
+        "sha256": "b1782edabbcb888876fce598991857c581f45802e2889c002292cc116843a36e",
+        "sizeBytes": 35116340,
+        "notes": "精简本机插件区：移除无资源旧项，原插件C 升级顺位为本机唯一固化内置「插件A·QyKernel」；开箱即生效。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.89",
+    "latest": "0.1.90",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.89",
+        "version": "0.1.90",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.89/Launcher-0.1.89-win64.zip",
-        "sha256": "4fb3d1151c40ada3c53682e3064567fbf9dfa741bbd65ae43c1ea9754154203a",
-        "sizeBytes": 117406,
-        "notes": "插件C 固化为内置核心组件；界面清晰区分内置与扩展；稳定性提升。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.90/Launcher-0.1.90-win64.zip",
+        "sha256": "ad515f741ac7fddf315a9f828a24fa3f415771b73d2f189387c5d5482d150ab8",
+        "sizeBytes": 117405,
+        "notes": "精简本机插件区：移除无资源旧项，原插件C 升级顺位为本机唯一固化内置「插件A·QyKernel」；开箱即生效。"
       }
     ]
   }
