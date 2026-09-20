@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.85",
+    "latest": "0.1.86",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.85",
+        "version": "0.1.86",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.85/SoftwareMergerBuilder-0.1.85-win64.zip",
-        "sha256": "3835ddb6a17278f1f1f087793509b7e79acb1c569edae3242825c0f16a9bfa7a",
-        "sizeBytes": 31692648,
-        "notes": "内部命名优化；稳定性改进。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.86/SoftwareMergerBuilder-0.1.86-win64.zip",
+        "sha256": "ec83f45558723ea2b9a354281ba729521dc560a687f0394539db9fb308287940",
+        "sizeBytes": 33410080,
+        "notes": "更新本机插件资源；稳定性改进。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.85",
+    "latest": "0.1.86",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.85",
+        "version": "0.1.86",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.85/Launcher-0.1.85-win64.zip",
-        "sha256": "637aa11acbff51fb2fe9bfa16948dbcedbc2e220c6300a8d59584193938291c3",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.86/Launcher-0.1.86-win64.zip",
+        "sha256": "367b9cfc24fc3aec392dec4720c49de5145f85fcf31d36bd386f67f297dbe925",
         "sizeBytes": 117406,
-        "notes": "内部命名优化；稳定性改进。"
+        "notes": "更新本机插件资源；稳定性改进。"
       }
     ]
   }
