@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.94",
+    "latest": "0.1.95",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.94",
+        "version": "0.1.95",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.94/SoftwareMergerBuilder-0.1.94-win64.zip",
-        "sha256": "3e0aa08576379ecfc5d945a8c83ff2fc6fc077c91b99c1bc28cbb66a79ef8799",
-        "sizeBytes": 35136867,
-        "notes": "1. 修复自解压包启用数字签名后提示「无效的自解压组合包」的问题。\r\n2. 自解压壳可跳过 Authenticode 证书尾再读取载荷，签名与自解压可同时使用。\r\n3. 请用新版重新生成已签名的自解压包（旧包需重生成）。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.95/SoftwareMergerBuilder-0.1.95-win64.zip",
+        "sha256": "da3e668e4671a668ba4d44fa7676a7dca21cebfc1ae8fa5a6f40e2a3249c0bac",
+        "sizeBytes": 35136908,
+        "notes": "1. 继续修复：自解压包签名后证书表前可能有对齐填充，导致仍提示无效组合包。\r\n2. 自解压壳改为在证书表前扫描 footer，签名与自解压可正常共存。\r\n3. 请用本版重新生成已签名的自解压包后再试。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.94",
+    "latest": "0.1.95",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.94",
+        "version": "0.1.95",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.94/Launcher-0.1.94-win64.zip",
-        "sha256": "c391c472b4b911a1e04018f2acc5b5069f7e4015e99a1de88ae220ac00ef1cba",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.95/Launcher-0.1.95-win64.zip",
+        "sha256": "341b2e3356fac65de167555bbfbe452af4838c56c6060fd3ea883aeecb82aabd",
         "sizeBytes": 117406,
-        "notes": "1. 修复自解压包启用数字签名后提示「无效的自解压组合包」的问题。\r\n2. 自解压壳可跳过 Authenticode 证书尾再读取载荷，签名与自解压可同时使用。\r\n3. 请用新版重新生成已签名的自解压包（旧包需重生成）。"
+        "notes": "1. 继续修复：自解压包签名后证书表前可能有对齐填充，导致仍提示无效组合包。\r\n2. 自解压壳改为在证书表前扫描 footer，签名与自解压可正常共存。\r\n3. 请用本版重新生成已签名的自解压包后再试。"
       }
     ]
   }
