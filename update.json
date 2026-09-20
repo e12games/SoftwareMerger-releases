@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.95",
+    "latest": "0.1.96",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.95",
+        "version": "0.1.96",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.95/SoftwareMergerBuilder-0.1.95-win64.zip",
-        "sha256": "da3e668e4671a668ba4d44fa7676a7dca21cebfc1ae8fa5a6f40e2a3249c0bac",
-        "sizeBytes": 35136908,
-        "notes": "1. 继续修复：自解压包签名后证书表前可能有对齐填充，导致仍提示无效组合包。\r\n2. 自解压壳改为在证书表前扫描 footer，签名与自解压可正常共存。\r\n3. 请用本版重新生成已签名的自解压包后再试。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.96/SoftwareMergerBuilder-0.1.96-win64.zip",
+        "sha256": "c6e171da3e909237816dc5fda21c6f36caa90a0d65558f7af24bff2d2370f56e",
+        "sizeBytes": 36867021,
+        "notes": "1. 更新客户插件区 A组内置载荷（新 QyKernel）。\r\n2. 生成组合包时仍自动清空并替换 apps/_builtin_a 目录。\r\n3. 本机插件区载荷未改动。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.95",
+    "latest": "0.1.96",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.95",
+        "version": "0.1.96",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.95/Launcher-0.1.95-win64.zip",
-        "sha256": "341b2e3356fac65de167555bbfbe452af4838c56c6060fd3ea883aeecb82aabd",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.96/Launcher-0.1.96-win64.zip",
+        "sha256": "b6a86e537765e51bd8e81ac19bf6031117a5578eb82feb9662d1c7f174d52112",
         "sizeBytes": 117406,
-        "notes": "1. 继续修复：自解压包签名后证书表前可能有对齐填充，导致仍提示无效组合包。\r\n2. 自解压壳改为在证书表前扫描 footer，签名与自解压可正常共存。\r\n3. 请用本版重新生成已签名的自解压包后再试。"
+        "notes": "1. 更新客户插件区 A组内置载荷（新 QyKernel）。\r\n2. 生成组合包时仍自动清空并替换 apps/_builtin_a 目录。\r\n3. 本机插件区载荷未改动。"
       }
     ]
   }
