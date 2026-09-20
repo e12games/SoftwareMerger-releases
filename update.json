@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.81",
+    "latest": "0.1.82",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.81",
+        "version": "0.1.82",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.81/SoftwareMergerBuilder-0.1.81-win64.zip",
-        "sha256": "d0b9c58e48fe2b9eb99e8e3e0ee335d707e9389920e7b9a8e5d5dc8bf21fb537",
-        "sizeBytes": 31683431,
-        "notes": "新增「帮助 → 使用说明」，方便普通用户了解如何生成与分发组合包。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.82/SoftwareMergerBuilder-0.1.82-win64.zip",
+        "sha256": "78c9efec09b732d7d726db4dd6392222a4d43f2e7ba19b9b1bfd97afbfe825b6",
+        "sizeBytes": 31687584,
+        "notes": "本机同步区空占位时正确显示「未附带」；开发者区可查看 A.smenc 信息并导入本机套餐C。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.81",
+    "latest": "0.1.82",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.81",
+        "version": "0.1.82",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.81/Launcher-0.1.81-win64.zip",
-        "sha256": "23b2afd02dc5d13b578b99945d66db70a2fc3d69cccf4bc0ea4664550613ddd9",
-        "sizeBytes": 117406,
-        "notes": "新增「帮助 → 使用说明」，方便普通用户了解如何生成与分发组合包。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.82/Launcher-0.1.82-win64.zip",
+        "sha256": "1331198447753105b5e125056d678e390cd54ddc02b8ab1712a1561e21c20a19",
+        "sizeBytes": 117405,
+        "notes": "本机同步区空占位时正确显示「未附带」；开发者区可查看 A.smenc 信息并导入本机套餐C。"
       }
     ]
   }
