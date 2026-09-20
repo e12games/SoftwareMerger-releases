@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.83",
+    "latest": "0.1.84",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.83",
+        "version": "0.1.84",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.83/SoftwareMergerBuilder-0.1.83-win64.zip",
-        "sha256": "5d9af24de92723f1e147ada096f613f0998fece8d375850a7045e7864ecd4d39",
-        "sizeBytes": 31692565,
-        "notes": "优化制作器本机资源加密存放与启用流程；稳定性改进。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.84/SoftwareMergerBuilder-0.1.84-win64.zip",
+        "sha256": "43f44a95f16779979f99b63a2e9c6edcc5b5908d4771c13ff858f349e37e08cf",
+        "sizeBytes": 31692672,
+        "notes": "内部命名优化；稳定性改进。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.83",
+    "latest": "0.1.84",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.83",
+        "version": "0.1.84",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.83/Launcher-0.1.83-win64.zip",
-        "sha256": "8b344cbac1a50ba781f6899da36e23fbf13bc91dcebbb21d93095fe1041759ef",
-        "sizeBytes": 117406,
-        "notes": "优化制作器本机资源加密存放与启用流程；稳定性改进。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.84/Launcher-0.1.84-win64.zip",
+        "sha256": "027a9312953e46150aa36e0dbac1f26a3456b313a96d62b9f1a76401551b2061",
+        "sizeBytes": 117405,
+        "notes": "内部命名优化；稳定性改进。"
       }
     ]
   }
