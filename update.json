@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.92",
+    "latest": "0.1.93",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.92",
+        "version": "0.1.93",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.92/SoftwareMergerBuilder-0.1.92-win64.zip",
-        "sha256": "73e92956c318b4244dca2a8b0a31493e42cbc7855e57ef43d2a47dbc49f52d6b",
-        "sizeBytes": 35136072,
-        "notes": "1. 开发者内部测试区新增「系统启动项管理」功能：全维度检测注册表、启动文件夹及计划任务。\r\n2. 智能探测自启动目标有效性并标红异常项，标识 SoftwareMerger 归属标签，支持一键清理失效残留和定位目标文件。\r\n3. 优化通道术语与系统稳定性。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.93/SoftwareMergerBuilder-0.1.93-win64.zip",
+        "sha256": "58590ff665fb58ce8cd01cbb3ea6c73162b271098a3d7a36c972d2dec32b37f4",
+        "sizeBytes": 35136203,
+        "notes": "1. 本机插件区插件A 改为默认关闭（载荷 A.smenc 仍随版附带）。\r\n2. 新机不再自动解密常驻；已手动开启的用户保留原状态。\r\n3. 文案与配置升级逻辑同步为「随版附带，默认关闭」。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.92",
+    "latest": "0.1.93",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.92",
+        "version": "0.1.93",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.92/Launcher-0.1.92-win64.zip",
-        "sha256": "1bfd45f9fb78b43145574a95ff0535d1c987d80c16306e5de2a74bf76ae5b874",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.93/Launcher-0.1.93-win64.zip",
+        "sha256": "3b74691674760c2e82b15df43457c7920fffff0e7691ae7cf259b60cfe629131",
         "sizeBytes": 117406,
-        "notes": "1. 开发者内部测试区新增「系统启动项管理」功能：全维度检测注册表、启动文件夹及计划任务。\r\n2. 智能探测自启动目标有效性并标红异常项，标识 SoftwareMerger 归属标签，支持一键清理失效残留和定位目标文件。\r\n3. 优化通道术语与系统稳定性。"
+        "notes": "1. 本机插件区插件A 改为默认关闭（载荷 A.smenc 仍随版附带）。\r\n2. 新机不再自动解密常驻；已手动开启的用户保留原状态。\r\n3. 文案与配置升级逻辑同步为「随版附带，默认关闭」。"
       }
     ]
   }
