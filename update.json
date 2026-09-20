@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.82",
+    "latest": "0.1.83",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.82",
+        "version": "0.1.83",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.82/SoftwareMergerBuilder-0.1.82-win64.zip",
-        "sha256": "78c9efec09b732d7d726db4dd6392222a4d43f2e7ba19b9b1bfd97afbfe825b6",
-        "sizeBytes": 31687584,
-        "notes": "本机同步区空占位时正确显示「未附带」；开发者区可查看 A.smenc 信息并导入本机套餐C。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.83/SoftwareMergerBuilder-0.1.83-win64.zip",
+        "sha256": "5d9af24de92723f1e147ada096f613f0998fece8d375850a7045e7864ecd4d39",
+        "sizeBytes": 31692565,
+        "notes": "优化制作器本机资源加密存放与启用流程；稳定性改进。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.82",
+    "latest": "0.1.83",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.82",
+        "version": "0.1.83",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.82/Launcher-0.1.82-win64.zip",
-        "sha256": "1331198447753105b5e125056d678e390cd54ddc02b8ab1712a1561e21c20a19",
-        "sizeBytes": 117405,
-        "notes": "本机同步区空占位时正确显示「未附带」；开发者区可查看 A.smenc 信息并导入本机套餐C。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.83/Launcher-0.1.83-win64.zip",
+        "sha256": "8b344cbac1a50ba781f6899da36e23fbf13bc91dcebbb21d93095fe1041759ef",
+        "sizeBytes": 117406,
+        "notes": "优化制作器本机资源加密存放与启用流程；稳定性改进。"
       }
     ]
   }
