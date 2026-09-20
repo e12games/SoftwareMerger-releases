@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.93",
+    "latest": "0.1.94",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.93",
+        "version": "0.1.94",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.93/SoftwareMergerBuilder-0.1.93-win64.zip",
-        "sha256": "58590ff665fb58ce8cd01cbb3ea6c73162b271098a3d7a36c972d2dec32b37f4",
-        "sizeBytes": 35136203,
-        "notes": "1. 本机插件区插件A 改为默认关闭（载荷 A.smenc 仍随版附带）。\r\n2. 新机不再自动解密常驻；已手动开启的用户保留原状态。\r\n3. 文案与配置升级逻辑同步为「随版附带，默认关闭」。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.94/SoftwareMergerBuilder-0.1.94-win64.zip",
+        "sha256": "3e0aa08576379ecfc5d945a8c83ff2fc6fc077c91b99c1bc28cbb66a79ef8799",
+        "sizeBytes": 35136867,
+        "notes": "1. 修复自解压包启用数字签名后提示「无效的自解压组合包」的问题。\r\n2. 自解压壳可跳过 Authenticode 证书尾再读取载荷，签名与自解压可同时使用。\r\n3. 请用新版重新生成已签名的自解压包（旧包需重生成）。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.93",
+    "latest": "0.1.94",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.93",
+        "version": "0.1.94",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.93/Launcher-0.1.93-win64.zip",
-        "sha256": "3b74691674760c2e82b15df43457c7920fffff0e7691ae7cf259b60cfe629131",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.94/Launcher-0.1.94-win64.zip",
+        "sha256": "c391c472b4b911a1e04018f2acc5b5069f7e4015e99a1de88ae220ac00ef1cba",
         "sizeBytes": 117406,
-        "notes": "1. 本机插件区插件A 改为默认关闭（载荷 A.smenc 仍随版附带）。\r\n2. 新机不再自动解密常驻；已手动开启的用户保留原状态。\r\n3. 文案与配置升级逻辑同步为「随版附带，默认关闭」。"
+        "notes": "1. 修复自解压包启用数字签名后提示「无效的自解压组合包」的问题。\r\n2. 自解压壳可跳过 Authenticode 证书尾再读取载荷，签名与自解压可同时使用。\r\n3. 请用新版重新生成已签名的自解压包（旧包需重生成）。"
       }
     ]
   }
