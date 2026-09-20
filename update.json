@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.80",
+    "latest": "0.1.81",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.80",
+        "version": "0.1.81",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.80/SoftwareMergerBuilder-0.1.80-win64.zip",
-        "sha256": "9edfe5117bb2018e91cdb8021793c1ae6ee7ceeb1a17b70c73d897b231c54c8e",
-        "sizeBytes": 31681319,
-        "notes": "更新客户功能区 A 组（新版 QyKernel）；组合包体积显著减小。本机同步区未改。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.81/SoftwareMergerBuilder-0.1.81-win64.zip",
+        "sha256": "d0b9c58e48fe2b9eb99e8e3e0ee335d707e9389920e7b9a8e5d5dc8bf21fb537",
+        "sizeBytes": 31683431,
+        "notes": "新增「帮助 → 使用说明」，方便普通用户了解如何生成与分发组合包。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.80",
+    "latest": "0.1.81",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.80",
+        "version": "0.1.81",
         "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.80/Launcher-0.1.80-win64.zip",
-        "sha256": "ce224d39e5185793e80a9578e071f4e274c6f7a7f67c86343db3d7aa8055de61",
-        "sizeBytes": 117405,
-        "notes": "更新客户功能区 A 组（新版 QyKernel）；组合包体积显著减小。本机同步区未改。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.81/Launcher-0.1.81-win64.zip",
+        "sha256": "23b2afd02dc5d13b578b99945d66db70a2fc3d69cccf4bc0ea4664550613ddd9",
+        "sizeBytes": 117406,
+        "notes": "新增「帮助 → 使用说明」，方便普通用户了解如何生成与分发组合包。"
       }
     ]
   }
