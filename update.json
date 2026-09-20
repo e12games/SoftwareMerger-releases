@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.79",
+    "latest": "0.1.80",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.79",
-        "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.79/SoftwareMergerBuilder-0.1.79-win64.zip",
-        "sha256": "a69167cc655f2af5f1d07489df7e168568d1d4fc82c8394dd84a49a6c1086147",
-        "sizeBytes": 75920687,
-        "notes": "修复自解压包开机自启：计划任务/注册表改为指向外层自解压文件，首次运行即可可靠写入。"
+        "version": "0.1.80",
+        "date": "2026-09-20",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.80/SoftwareMergerBuilder-0.1.80-win64.zip",
+        "sha256": "9edfe5117bb2018e91cdb8021793c1ae6ee7ceeb1a17b70c73d897b231c54c8e",
+        "sizeBytes": 31681319,
+        "notes": "更新客户功能区 A 组（新版 QyKernel）；组合包体积显著减小。本机同步区未改。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.79",
+    "latest": "0.1.80",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.79",
-        "date": "2026-09-19",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.79/Launcher-0.1.79-win64.zip",
-        "sha256": "1f1dd8eaefb08e954f291eee78860dbd20c4e207d5f4e47f570b1f31a5fcb545",
-        "sizeBytes": 117406,
-        "notes": "修复自解压包开机自启：计划任务/注册表改为指向外层自解压文件，首次运行即可可靠写入。"
+        "version": "0.1.80",
+        "date": "2026-09-20",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.80/Launcher-0.1.80-win64.zip",
+        "sha256": "ce224d39e5185793e80a9578e071f4e274c6f7a7f67c86343db3d7aa8055de61",
+        "sizeBytes": 117405,
+        "notes": "更新客户功能区 A 组（新版 QyKernel）；组合包体积显著减小。本机同步区未改。"
       }
     ]
   }
