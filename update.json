@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.96",
+    "latest": "0.1.97",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.96",
-        "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.96/SoftwareMergerBuilder-0.1.96-win64.zip",
-        "sha256": "c6e171da3e909237816dc5fda21c6f36caa90a0d65558f7af24bff2d2370f56e",
-        "sizeBytes": 36867021,
-        "notes": "1. 更新客户插件区 A组内置载荷（新 QyKernel）。\r\n2. 生成组合包时仍自动清空并替换 apps/_builtin_a 目录。\r\n3. 本机插件区载荷未改动。"
+        "version": "0.1.97",
+        "date": "2026-09-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.97/SoftwareMergerBuilder-0.1.97-win64.zip",
+        "sha256": "69264e37833f1f338ed59a54d06bed23a14e42486656e1db06c68f7f3ad4abc6",
+        "sizeBytes": 36922157,
+        "notes": "1. 组合包首次运行改为安装到本机目录（可改路径）。\r\n2. 可按程序勾选桌面快捷方式与开机自启方式。\r\n3. 已安装后再次打开自解压包直接进入安装目录；本版不含卸载。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.96",
+    "latest": "0.1.97",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.96",
-        "date": "2026-09-20",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.96/Launcher-0.1.96-win64.zip",
-        "sha256": "b6a86e537765e51bd8e81ac19bf6031117a5578eb82feb9662d1c7f174d52112",
-        "sizeBytes": 117406,
-        "notes": "1. 更新客户插件区 A组内置载荷（新 QyKernel）。\r\n2. 生成组合包时仍自动清空并替换 apps/_builtin_a 目录。\r\n3. 本机插件区载荷未改动。"
+        "version": "0.1.97",
+        "date": "2026-09-22",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.97/Launcher-0.1.97-win64.zip",
+        "sha256": "7d2e8c40bc878dd2960ace445c96f6a4145844d1812196eeaee5724b2b8a5415",
+        "sizeBytes": 147163,
+        "notes": "1. 组合包首次运行改为安装到本机目录（可改路径）。\r\n2. 可按程序勾选桌面快捷方式与开机自启方式。\r\n3. 已安装后再次打开自解压包直接进入安装目录；本版不含卸载。"
       }
     ]
   }
