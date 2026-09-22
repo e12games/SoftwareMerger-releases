@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.97",
+    "latest": "0.1.98",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.97",
+        "version": "0.1.98",
         "date": "2026-09-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.97/SoftwareMergerBuilder-0.1.97-win64.zip",
-        "sha256": "69264e37833f1f338ed59a54d06bed23a14e42486656e1db06c68f7f3ad4abc6",
-        "sizeBytes": 36922157,
-        "notes": "1. 组合包首次运行改为安装到本机目录（可改路径）。\r\n2. 可按程序勾选桌面快捷方式与开机自启方式。\r\n3. 已安装后再次打开自解压包直接进入安装目录；本版不含卸载。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.98/SoftwareMergerBuilder-0.1.98-win64.zip",
+        "sha256": "59761403be0584bd45a77b64e9a1a2f97f91530d40ecbdbbbed591146f05742c",
+        "sizeBytes": 36922192,
+        "notes": "1. 修复：添加文件夹并确认主程序后制作器闪退。\r\n2. 其余同 0.1.97（安装落盘、每程序快捷方式/自启）。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.97",
+    "latest": "0.1.98",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.97",
+        "version": "0.1.98",
         "date": "2026-09-22",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.97/Launcher-0.1.97-win64.zip",
-        "sha256": "7d2e8c40bc878dd2960ace445c96f6a4145844d1812196eeaee5724b2b8a5415",
-        "sizeBytes": 147163,
-        "notes": "1. 组合包首次运行改为安装到本机目录（可改路径）。\r\n2. 可按程序勾选桌面快捷方式与开机自启方式。\r\n3. 已安装后再次打开自解压包直接进入安装目录；本版不含卸载。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.98/Launcher-0.1.98-win64.zip",
+        "sha256": "cd3b9bf69b70d9a6da2dbe675201555ae455f0daba14774109a77caad8659617",
+        "sizeBytes": 147164,
+        "notes": "1. 修复：添加文件夹并确认主程序后制作器闪退。\r\n2. 其余同 0.1.97（安装落盘、每程序快捷方式/自启）。"
       }
     ]
   }
