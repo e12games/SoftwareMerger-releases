@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.99",
+    "latest": "0.1.100",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.99",
+        "version": "0.1.100",
         "date": "2026-09-23",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.99/SoftwareMergerBuilder-0.1.99-win64.zip",
-        "sha256": "05b6b2dc5651ba0da064483ab0f7806ae7092e073abe5c86ba77c1bb6331cc29",
-        "sizeBytes": 36922892,
-        "notes": "1. 程序列表改用勾选多选删除，不再靠行加深。\r\n2. 双击程序行仍可编辑属性，与勾选互不干扰。\r\n3. 含 0.1.98 修复：添加文件夹确认主程序后不再闪退。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.100/SoftwareMergerBuilder-0.1.100-win64.zip",
+        "sha256": "188edfa1c0cc182867b7fc8b1c12341b1973e39d1690b04e1594d1430978344e",
+        "sizeBytes": 36924082,
+        "notes": "1. 开机自启说明更清楚：桌面图标、开机自启、自启方式各做什么。\r\n2. 自启方式写明注册表（推荐）/ 启动文件夹 / 计划任务（可延时）。\r\n3. 含近期勾选删除、添加文件夹闪退修复。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.99",
+    "latest": "0.1.100",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.99",
+        "version": "0.1.100",
         "date": "2026-09-23",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.99/Launcher-0.1.99-win64.zip",
-        "sha256": "5f637ab399cd53aa2ebda2bd6db566c2926849af212c336903abeaded362ae23",
-        "sizeBytes": 147164,
-        "notes": "1. 程序列表改用勾选多选删除，不再靠行加深。\r\n2. 双击程序行仍可编辑属性，与勾选互不干扰。\r\n3. 含 0.1.98 修复：添加文件夹确认主程序后不再闪退。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.100/Launcher-0.1.100-win64.zip",
+        "sha256": "820b9e02deea75926a23acc4046b847ade4f316017d2c42fcdf268ced43c8d5f",
+        "sizeBytes": 147163,
+        "notes": "1. 开机自启说明更清楚：桌面图标、开机自启、自启方式各做什么。\r\n2. 自启方式写明注册表（推荐）/ 启动文件夹 / 计划任务（可延时）。\r\n3. 含近期勾选删除、添加文件夹闪退修复。"
       }
     ]
   }
