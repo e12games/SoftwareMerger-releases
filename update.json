@@ -1,32 +1,32 @@
 {
   "formatVersion": 1,
   "builder": {
-    "latest": "0.1.101",
+    "latest": "0.1.102",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.101",
+        "version": "0.1.102",
         "date": "2026-09-23",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.101/SoftwareMergerBuilder-0.1.101-win64.zip",
-        "sha256": "c51b5f8a85c86a5b708fc8d4cf93c7feb266b7884c89ee1758cc4034c78e40b5",
-        "sizeBytes": 36924585,
-        "notes": "1. 开机自启与桌面图标统一为同款勾选，不再出现加深色块。\r\n2. 总开关改为「启用下面的开机自启勾选」。\r\n3. 检查更新提示会显示本机与远端版本，并避免旧清单缓存干扰。"
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.102/SoftwareMergerBuilder-0.1.102-win64.zip",
+        "sha256": "9ed004d6e7e0f4dd88bee19a0d2082e73e3bf1a1603d17912e599ff38786392c",
+        "sizeBytes": 36925166,
+        "notes": "1. 桌面图标、开机自启改为打勾/空框（✓ / □），不再只用颜色区分。\r\n2. 方便色弱/色盲用户看清是否已勾选。"
       }
     ]
   },
   "launcher": {
-    "latest": "0.1.101",
+    "latest": "0.1.102",
     "minSupported": "0.1.0",
     "channel": "stable",
     "releases": [
       {
-        "version": "0.1.101",
+        "version": "0.1.102",
         "date": "2026-09-23",
-        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.101/Launcher-0.1.101-win64.zip",
-        "sha256": "701f35a583cf87206d5d89cc0c5f3caa9b50f34c8b0276515096cb123980d485",
+        "url": "https://github.com/e12games/SoftwareMerger-releases/releases/download/v0.1.102/Launcher-0.1.102-win64.zip",
+        "sha256": "1dda5d4224806cf6a4e94774d0543b1e1c4dd448fb041b44bc3d702a8dc03dd4",
         "sizeBytes": 147163,
-        "notes": "1. 开机自启与桌面图标统一为同款勾选，不再出现加深色块。\r\n2. 总开关改为「启用下面的开机自启勾选」。\r\n3. 检查更新提示会显示本机与远端版本，并避免旧清单缓存干扰。"
+        "notes": "1. 桌面图标、开机自启改为打勾/空框（✓ / □），不再只用颜色区分。\r\n2. 方便色弱/色盲用户看清是否已勾选。"
       }
     ]
   }
